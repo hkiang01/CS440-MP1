@@ -7,6 +7,7 @@ using namespace std;
 struct cell{
 
 	bool wall;
+	bool visited;
 };
 
 struct maze_props{
@@ -52,6 +53,7 @@ void process_line(cell** maze, string curr_line, int curr_height, maze_props &pr
 			//open space 
 			maze[curr_height][curr_col].wall = false;
 		}
+		maze[curr_height][curr_col].visited = false;
 		curr_col++;
 	}
 
@@ -106,7 +108,11 @@ int main(void)
 	}
 	*/
 
+	/*
 	cout << "The init is at row: " << props.init_row << " and col: " << props.init_col << endl;
 	cout << "The goal is at row: " << props.goal_row << " and col: " << props.goal_col << endl;
+	*/
+
+	
 
 }
