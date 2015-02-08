@@ -50,7 +50,7 @@ int main(void)
 	int small_cols = 0;
 	int small_rows = 0;
 
-	ifstream myfile ("bigMaze.txt");
+	ifstream myfile ("mediumMaze.txt");
 //		cout << "Unable to open file." << endl;
 	//std::ofstream outfile ("output_small.txt");
 
