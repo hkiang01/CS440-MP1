@@ -15,10 +15,33 @@ int main(void)
 	if(myfile.is_open())
 	{
 		std::string curr_line;
-		while(getline(myfile, curr_pic))
+		while(getline(myfile, curr_line))
 		{
-			small_cols = curr_pic.size();
+			small_cols = curr_line.size();
 			small_rows++;
+
+
+			for(std::string::iterator it = curr_line.begin(); it != curr_line.end(); it++)
+			{
+				char test = *it;
+				if(test == '%')
+				{
+					//wall
+
+				}
+				else if(test == 'P')
+				{
+					//starting point
+				}
+				else if(test == '.')
+				{
+					//goal
+				}
+				else
+				{
+					//open space 
+				}
+			}
 		}
 	}
 	else
