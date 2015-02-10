@@ -32,7 +32,7 @@ struct maze_props{
 	cell* goal;
 };
 
-bool frontierCheckPush(queue<cell*>& frontier, cell** maze, maze_props props, int x, int y) {
+bool frontierCheckPush(queue<cell*>& frontier, cell** maze, maze_props props, int x, int y, int &num_expansions) {
 	if (x<0 || y<0 || x>props.num_rows-1 || y>props.num_cols-1) {
 		return false;
 	}
@@ -44,6 +44,7 @@ bool frontierCheckPush(queue<cell*>& frontier, cell** maze, maze_props props, in
 		
 	if (!candidate_cell->wall) {
 		frontier.push(candidate_cell);
+		num_expansions++;
 		return true;
 	}
 	
@@ -106,6 +107,8 @@ void bfs(cell** maze, maze_props props) {
 	
 	queue< cell* > frontier;
 	frontier.push( props.start );
+
+	int num_expansions = 0;
 	
 	while(!frontier.empty()) {
 		current_cell = frontier.front();
@@ -119,10 +122,10 @@ void bfs(cell** maze, maze_props props) {
 		
 		//Add all adjacent cells to frontier
 		int cx = current_cell->x, cy = current_cell->y;
-		frontierCheckPush(frontier, maze, props, cx+1,	cy	);
-		frontierCheckPush(frontier, maze, props, cx,	cy+1);
-		frontierCheckPush(frontier, maze, props, cx-1,	cy	);
-		frontierCheckPush(frontier, maze, props, cx,	cy-1);
+		frontierCheckPush(frontier, maze, props, cx+1,	cy	, num_expansions);
+		frontierCheckPush(frontier, maze, props, cx,	cy+1, num_expansions);
+		frontierCheckPush(frontier, maze, props, cx-1,	cy	, num_expansions);
+		frontierCheckPush(frontier, maze, props, cx,	cy-1, num_expansions);
 		
 		//Progress In Text
 		if (DEBUG) {
@@ -143,6 +146,7 @@ void bfs(cell** maze, maze_props props) {
 				}
 				cout << endl;
 			}
+			cout << "Number of expansions: " << num_expansions << endl;
 			for(int i=0; i<14; i++)
 			{
 				cout << endl;
