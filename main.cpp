@@ -251,5 +251,4 @@ int main(void)
 	
 	bfs(maze, props);
 	
-
 }
