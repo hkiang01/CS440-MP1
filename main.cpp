@@ -2,6 +2,7 @@
 #include <fstream>
 #include <iostream>
 #include <queue>
+#include <unistd.h>
 
 using namespace std;
 
@@ -127,14 +128,26 @@ void bfs(cell** maze, maze_props props) {
 		if (DEBUG) {
 			for(int i=0; i<props.num_rows; i++) {
 				for (int j=0; j<props.num_cols; j++) {
-					cout << ((maze[i][j].wall)? 'W':(maze[i][j].visited? 'X':' ' )) ;
+					if(i==props.init_row && j==props.init_col)
+					{
+						cout << 'P';
+						continue;
+					}
+					if(i==props.goal_row && j==props.goal_col)
+					{
+						cout << 'G';
+						continue;
+					}
+
+					cout << ((maze[i][j].wall)? '%':(maze[i][j].visited? '.':' ' )) ;
 				}
 				cout << endl;
 			}
-			for(int i=0; i<props.num_rows; i++)
-				cout << '-'; 
-			cout << endl;
-			sleep(1); //sleep 1 sec
+			for(int i=0; i<14; i++)
+			{
+				cout << endl;
+			} 
+			usleep(150000); //sleep 0.25 sec
 		}
 	}
 }
