@@ -32,7 +32,32 @@ struct maze_props{
 	cell* goal;
 };
 
-bool frontierCheckPush(queue<cell*>& frontier, cell** maze, maze_props props, int x, int y, int &num_expansions) {
+struct node{
+	node* parent;
+
+	int row;
+	int col;
+
+	node* childA;
+	node* childB;
+	node* childC;
+	node* childD;
+};
+
+/*
+int calc_path_cost(node* curr_node, maze_props &props, int curr_cost)
+{
+	if(curr_node->row == props.goal_row && curr_node->col == props.goal_col)
+	{
+		return curr_cost;
+	}
+
+
+}
+*/
+
+
+bool frontierCheckPush(queue<cell*>& frontier, cell** maze, maze_props props, int x, int y, int &num_expansions/*, node* curr_node*/) {
 	if (x<0 || y<0 || x>props.num_rows-1 || y>props.num_cols-1) {
 		return false;
 	}
@@ -44,6 +69,40 @@ bool frontierCheckPush(queue<cell*>& frontier, cell** maze, maze_props props, in
 		
 	if (!candidate_cell->wall) {
 		frontier.push(candidate_cell);
+		/*
+		if(curr_node->childA==NULL)
+		{
+			node* new_node = new node;
+			new_node->row = x;
+			new_node->col = y;
+			new_node->parent = curr_node;
+			curr_node->childA=new_node;
+		}
+		else if(curr_node->childB==NULL)
+		{
+			node* new_node = new node;
+			new_node->row = x;
+			new_node->col = y;
+			new_node->parent = curr_node;
+			curr_node->childB=new_node;
+		}
+		else if(curr_node->childC==NULL)
+		{
+			node* new_node = new node;
+			new_node->row = x;
+			new_node->col = y;
+			new_node->parent = curr_node;
+			curr_node->childC=new_node;
+		}
+		else if(curr_node->childD==NULL)
+		{
+			node* new_node = new node;
+			new_node->row = x;
+			new_node->col = y;
+			new_node->parent = curr_node;
+			curr_node->childD=new_node;
+		}
+		*/
 		num_expansions++;
 		return true;
 	}
@@ -101,7 +160,7 @@ void process_line(cell** maze, string curr_line, int curr_height, maze_props &pr
 }
 
 /* Doesn't return a solution yet, since it doesn't keep track of the nodes taken */
-void bfs(cell** maze, maze_props props) {
+void bfs(cell** maze, maze_props props, node* root) {
 
 	cell* current_cell;
 	
@@ -117,15 +176,16 @@ void bfs(cell** maze, maze_props props) {
 		
 		if (current_cell == props.goal) {
 			//We done did eet
+			//cout << "Path cost: " << calc_path_cost(root, props, 0) << endl;
 			continue;
 		}
 		
 		//Add all adjacent cells to frontier
 		int cx = current_cell->x, cy = current_cell->y;
-		frontierCheckPush(frontier, maze, props, cx+1,	cy	, num_expansions);
-		frontierCheckPush(frontier, maze, props, cx,	cy+1, num_expansions);
-		frontierCheckPush(frontier, maze, props, cx-1,	cy	, num_expansions);
-		frontierCheckPush(frontier, maze, props, cx,	cy-1, num_expansions);
+		frontierCheckPush(frontier, maze, props, cx+1,	cy	, num_expansions/*, root*/);
+		frontierCheckPush(frontier, maze, props, cx,	cy+1, num_expansions/*, root*/);
+		frontierCheckPush(frontier, maze, props, cx-1,	cy	, num_expansions/*, root*/);
+		frontierCheckPush(frontier, maze, props, cx,	cy-1, num_expansions/*, root*/);
 		
 		//Progress In Text
 		if (DEBUG) {
@@ -147,6 +207,7 @@ void bfs(cell** maze, maze_props props) {
 				cout << endl;
 			}
 			cout << "Number of expansions: " << num_expansions << endl;
+
 			for(int i=0; i<14; i++)
 			{
 				cout << endl;
@@ -155,60 +216,6 @@ void bfs(cell** maze, maze_props props) {
 		}
 	}
 }
-
-/*
-void bfs(cell** maze, maze_props &props)
-{
-
-  	queue< pair<int, int> > frontier;
-
-  	pair<int, int> start_point (props.init_row, props.init_col);
-	maze[start_point.first][start_point.second]).visited=true;
-  	frontier.push(start_point);
-
-
-  	pair<int, int> curr_loc = frontier.front();
-  	frontier.pop();
-  	while(!frontier.empty())
-  	{
-	  	if(curr_loc.first == props.goal_row && curr_loc.second == props.goal_col)
-	  	{
-	  		// return the solution
-	  	}
-	  	else
-	  	{
-		  	if( curr_loc.first > 0 && (maze[curr_loc.first-1][curr_loc.second]).wall==false && (maze[curr+loc.first-1][curr_loc.second]).visited==false)
-		  	{
-		  		//can move up
-		  		pair<int, int> another_loc (curr_loc.first-1, curr_loc.second);
-		  		maze[curr+loc.first-1][curr_loc.second]).visited=true;
-		  		frontier.push(another_loc);
-		  	}
-		  	if( curr_loc.second + 1 < props.num_cols && (maze[curr_loc.first][curr_loc.second+1]).wall==false && (maze[curr+loc.first][curr_loc.second+1]).visited==false)
-		  	{
-		  		//can move right
-		  		pair<int, int> another_loc (curr_loc.first, curr_loc.second+1);
-		  		maze[curr+loc.first][curr_loc.second+1]).visited=true;
-		  		frontier.push(another_loc);
-		  	}
-		  	if( curr_loc.first+1 < props.num_rows && (maze[curr_loc.first+1][curr_loc.second]).wall==false && (maze[curr+loc.first+1][curr_loc.second]).visited==false)
-		  	{
-		  		//can move down
-		  		pair<int, int> another_loc (curr_loc.first+1, curr_loc.second);
-		  		maze[curr+loc.first+1][curr_loc.second]).visited=true;
-		  		frontier.push(another_loc);
-		  	}
-		  	if( curr_loc.second - 1 >= 0 && (maze[curr_loc.first][curr_loc.second - 1]).wall==false && (maze[curr+loc.first][curr_loc.second]-1).visited==false)
-		  	{
-		  		// can move left
-		  		pair<int, int> another_loc (curr_loc.first, curr_loc.second-1);
-		  		maze[curr+loc.first][curr_loc.second-1]).visited=true;
-		  		frontier.push(another_loc);
-		  	}
-		}
-  	}
-
-}*/
 
 
 int main(void)
@@ -227,6 +234,7 @@ int main(void)
 	props.init_col = -1;
 	props.goal_row = -1;
 	props.goal_col = -1;
+	node* root = NULL;
 	
 	if(myfile.is_open())
 	{
@@ -266,6 +274,6 @@ int main(void)
 		cout << endl;
 	}
 	
-	bfs(maze, props);
+	bfs(maze, props, root);
 	
 }
