@@ -61,6 +61,7 @@ bool frontierCheckPush(queue<cell*>& frontier, cell** maze, maze_props props, in
 	if (x<0 || y<0 || x>props.num_rows-1 || y>props.num_cols-1) {
 		return false;
 	}
+	num_expansions++;
 	
 	cell* candidate_cell = &(maze[x][y]);
 	
@@ -103,7 +104,6 @@ bool frontierCheckPush(queue<cell*>& frontier, cell** maze, maze_props props, in
 			curr_node->childD=new_node;
 		}
 		*/
-		num_expansions++;
 		return true;
 	}
 	
@@ -168,6 +168,8 @@ void bfs(cell** maze, maze_props props, node* root) {
 	frontier.push( props.start );
 
 	int num_expansions = 0;
+	int num_steps = 0;
+	bool found = false;
 	
 	while(!frontier.empty()) {
 		current_cell = frontier.front();
@@ -176,7 +178,8 @@ void bfs(cell** maze, maze_props props, node* root) {
 		
 		if (current_cell == props.goal) {
 			//We done did eet
-			//cout << "Path cost: " << calc_path_cost(root, props, 0) << endl;
+			//cout << "Path cost: " << num_steps << endl;
+			found = true;
 			continue;
 		}
 		
@@ -186,7 +189,8 @@ void bfs(cell** maze, maze_props props, node* root) {
 		frontierCheckPush(frontier, maze, props, cx,	cy+1, num_expansions/*, root*/);
 		frontierCheckPush(frontier, maze, props, cx-1,	cy	, num_expansions/*, root*/);
 		frontierCheckPush(frontier, maze, props, cx,	cy-1, num_expansions/*, root*/);
-		
+		num_steps++;
+
 		//Progress In Text
 		if (DEBUG) {
 			for(int i=0; i<props.num_rows; i++) {
@@ -207,8 +211,12 @@ void bfs(cell** maze, maze_props props, node* root) {
 				cout << endl;
 			}
 			cout << "Number of expansions: " << num_expansions << endl;
+			if(found==true)
+			{
+				cout << "Number of steps: " << num_steps << endl;
+			}
 
-			for(int i=0; i<14; i++)
+			for(int i=0; i<12; i++)
 			{
 				cout << endl;
 			} 
