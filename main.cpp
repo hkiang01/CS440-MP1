@@ -10,6 +10,7 @@
 using namespace std;
 
 #define DEBUG true
+#define DEBUG_INIT true
 
 struct cell{
 	
@@ -306,8 +307,8 @@ void dfs(cell** maze, maze_props props)
 
 void greedy(cell** maze, maze_props props)
 {
-	
-	
+
+
 }
 
 int main(void)
@@ -351,7 +352,18 @@ int main(void)
 	props.num_rows = num_rows;
 	props.num_cols = num_cols;
 
-
+	//initialize straight_dist heuristic
+	for(int i=0; i<num_rows; i++)
+	{
+		for(int j=0; j<num_cols; j++)
+		{
+			maze[i][j].straight_dist = calc__linear_dist(&maze[i][j], props.goal);
+			if(DEBUG_INIT)
+			{
+				cout << "Distance from [" << i << "][" << j << "] to [" << props.goal->x << "][" << props.goal->y << "]: " << maze[i][j].straight_dist << endl;
+			}
+		}
+	}
 
 	if(DEBUG) {
 		cout << "The init is at row: " << props.start->x << " and col: " << props.start->y << endl;
