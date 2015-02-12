@@ -140,14 +140,15 @@ bool frontierCheckPush_bfs(queue<cell*>& frontier, cell** maze, maze_props props
 	return false;
 }
 
-bool frontierCheckPush_dfs(stack<cell*>& frontier, cell** maze, maze_props props, int x, int y, int &num_expansions/*, node* curr_node*/, bool &found) {
+//the only difference with the above is that the first parameter is a stack instead of a queue
+bool frontierCheckPush_dfs(stack<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
 
 	if (x<0 || y<0 || x>props.num_rows-1 || y>props.num_cols-1) {
 		return false;
 	}
-	num_expansions++;
+
 	
-	cell* candidate_cell = &(maze[x][y]);
+	cell* candidate_cell = &(maze[y][x]);
 	
 	if (candidate_cell->visited)
 		return false;
@@ -256,86 +257,35 @@ void dfs(cell** maze, maze_props props)
 	
 	stack< cell* > frontier;
 	frontier.push( props.start );
-
-	int num_expansions = 0;
-	int num_steps = 0;
-	bool found = false;
-	bool right_check = false;
-	bool down_check = false;
-	bool left_check = false;
-	bool up_check = false;
-
+	int expansions = 0;
 
 	while(!frontier.empty())
 	{
+		//cout << "while" << endl;
 		current_cell = frontier.top();
-		current_cell->visited = true;
 		frontier.pop();
+		expansions++;
 
 		if(current_cell == props.goal)
 		{
-			//we done deed eeet
-			found = true;
 			continue;
 		}
-		int cx = current_cell->x, cy = current_cell->y;
-			//Add all adjacent cells to frontier
-			right_check = frontierCheckPush_dfs(frontier, maze, props, cx+1,	cy	, num_expansions/*, root*/, found);
-			while(right_check)
-			{
-				current_cell = frontier.top();
-				current_cell->visited = true;
-				frontier.pop();
-				right_check = frontierCheckPush_dfs(frontier, maze, props, cx + 1, cy, num_expansions, found);
-				cx++;
-				num_steps++;
-				//print_progress(props, maze, num_expansions, num_steps, found);
-			}
-			cx--;
-			num_steps--;
-			down_check = frontierCheckPush_dfs(frontier, maze, props, cx, cy+1, num_expansions, found);
-			while(down_check)
-			{
-				current_cell = frontier.top();
-				current_cell->visited = true;
-				frontier.pop();
-				down_check = frontierCheckPush_dfs(frontier, maze, props, cx, cy+1, num_expansions, found);
-				cy++;
-				num_steps++;
-				//print_progress(props, maze, num_expansions, num_steps, found);
-			}
-			cy--;
-			num_steps--;
-			left_check = frontierCheckPush_dfs(frontier, maze, props, cx-1, cy, num_expansions, found);
-			while(left_check)
-			{
-				current_cell = frontier.top();
-				current_cell->visited = true;
-				frontier.pop();
-				left_check = frontierCheckPush_dfs(frontier, maze, props, cx-1, cy, num_expansions, found);
-				cx--;
-				num_steps++;
-				//print_progress(props, maze, num_expansions, num_steps, found);
-			}
-			cx++;
-			num_steps--;
-			up_check = frontierCheckPush_dfs(frontier, maze, props, cx, cy-1, num_expansions, found);
-			while(up_check)
-			{
-				current_cell = frontier.top();
-				current_cell->visited = true;
-				frontier.pop();
-				up_check = frontierCheckPush_dfs(frontier, maze, props, cx, cy-1, num_expansions, found);
-				cy--;
-				num_steps++;
-				//print_progress(props, maze, num_expansions, num_steps, found);
-			}
-			cy++;
-			num_steps--;
 
-			//print_progress(props, maze, num_expansions, num_steps, found);
+		if(current_cell->visited==false)
+		{
+			//cout << "iteration" << endl;
+			current_cell->visited=true;
+			int cx = current_cell->x, cy = current_cell->y;
+			frontierCheckPush_dfs(frontier, maze, props, current_cell, cy,	cx+1) ;
+			frontierCheckPush_dfs(frontier, maze, props, current_cell, cy+1,cx	) ;
+			frontierCheckPush_dfs(frontier, maze, props, current_cell, cy,	cx-1) ;
+			frontierCheckPush_dfs(frontier, maze, props, current_cell, cy-1,cx	) ;
+		}
+
+		if(DEBUG)
+			print_progress(props, maze, expansions);
 	}
-
+	print_solution(maze, props);
 
 }
 

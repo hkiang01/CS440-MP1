@@ -81,8 +81,6 @@ void print_solution(cell** maze, maze_props props) {
 		current_cell = current_cell->previous;
 	}
 	
-	++path_length;
-	
 	cout << endl;
 	cout << "Found path of length " << path_length << endl;
 	for(int i = path_length-1; i>=0; i--) {
