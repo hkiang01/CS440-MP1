@@ -118,7 +118,7 @@ void print_progress(maze_props props, cell** maze, int expansions)
 	{
 		cout << endl;
 	} 
-	usleep(15000); //sleep 0.25 sec
+	usleep(35000); //sleep 0.25 sec
 }
 
 bool frontierCheckPush_bfs(queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
@@ -143,7 +143,7 @@ bool frontierCheckPush_bfs(queue<cell*>& frontier, cell** maze, maze_props props
 //the only difference with the above is that the first parameter is a stack instead of a queue
 bool frontierCheckPush_dfs(stack<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
 
-	if (x<0 || y<0 || x>props.num_rows-1 || y>props.num_cols-1) {
+	if (x<0 || y<0 || y>props.num_rows-1 || x>props.num_cols-1) {
 		return false;
 	}
 
@@ -231,7 +231,8 @@ void bfs(cell** maze, maze_props props) {
 		
 		if (current_cell == props.goal) {
 			//We done did eet
-			continue;
+			//continue;
+			break;
 		}
 		
 		//Add all adjacent cells to frontier
@@ -268,7 +269,7 @@ void dfs(cell** maze, maze_props props)
 
 		if(current_cell == props.goal)
 		{
-			continue;
+			break;
 		}
 
 		if(current_cell->visited==false)
