@@ -307,7 +307,8 @@ void dfs(cell** maze, maze_props props)
 
 void greedy(cell** maze, maze_props props)
 {
-
+	//cell* current_cell;
+	//vector<cell* 
 
 }
 
@@ -360,7 +361,7 @@ int main(void)
 			maze[i][j].straight_dist = calc__linear_dist(&maze[i][j], props.goal);
 			if(DEBUG_INIT)
 			{
-				cout << "Distance from [" << i << "][" << j << "] to [" << props.goal->x << "][" << props.goal->y << "]: " << maze[i][j].straight_dist << endl;
+				cout << "Distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].straight_dist << endl;
 			}
 		}
 	}
