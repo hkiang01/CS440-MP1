@@ -365,7 +365,7 @@ int main(void)
 		}
 	}
 
-	if(DEBUG) {
+	if(DEBUG_INIT) {
 		cout << "The init is at row: " << props.start->x << " and col: " << props.start->y << endl;
 		cout << "The goal is at row: " << props.goal->x << " and col: " << props.goal->y << endl;
 	}
