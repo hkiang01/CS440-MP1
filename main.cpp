@@ -304,7 +304,11 @@ void dfs(cell** maze, maze_props props)
 
 }
 
-
+void greedy(cell** maze, maze_props props)
+{
+	
+	
+}
 
 int main(void)
 {
@@ -363,7 +367,7 @@ int main(void)
 	}
 	
 	//bfs(maze, props);
-	dfs(maze, props);
+	//dfs(maze, props);
 
 
 	//double test_dist = calc__linear_dist(props.start, props.goal);
