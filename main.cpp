@@ -5,6 +5,7 @@
 #include <unistd.h> //for sleep
 #include <stack>
 #include <vector>
+#include <math.h>
 
 using namespace std;
 
@@ -18,8 +19,10 @@ struct cell{
 	
 	int x;
 	int y;
+
+	double straight_dist;
 	
-	cell() : visited(false), previous(NULL) {}
+	cell() : visited(false), previous(NULL), straight_dist(0) {}
 };
 
 struct maze_props{
@@ -155,11 +158,22 @@ bool frontierCheckPush_dfs(stack<cell*>& frontier, cell** maze, maze_props props
 		
 	if (!candidate_cell->wall) {
 		frontier.push(candidate_cell);
+		candidate_cell->previous = previous_cell;
 		return true;
 	}
 	
 	return false;
 }
+
+double calc__linear_dist(cell* curr, cell* dest)
+{
+	int arg_1 = dest->x - curr->x;
+	int arg_2 = dest->y - curr->y;
+	arg_1 = pow(arg_1, 2);
+	arg_2 = pow(arg_2, 2);
+	return sqrt(arg_1 + arg_2);
+}
+
 
 void process_line(cell** maze, string curr_line, int curr_height, maze_props &props)
 {
@@ -348,7 +362,10 @@ int main(void)
 		cout << endl;
 	}
 	
-	bfs(maze, props);
-	//dfs(maze, props);
-	
+	//bfs(maze, props);
+	dfs(maze, props);
+
+
+	//double test_dist = calc__linear_dist(props.start, props.goal);
+	//cout << "Linear distance from start to goal: " << test_dist << endl;
 }
