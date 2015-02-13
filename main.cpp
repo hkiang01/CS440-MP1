@@ -26,6 +26,15 @@ struct cell{
 	cell() : visited(false), previous(NULL), straight_dist(0) {}
 };
 
+//referenced https://stackoverflow.com/questions/9178083/priority-queue-for-user-defined-types
+//for the priority queue in greedy best first search
+struct Comp {
+	bool operator()(cell const& cell_1, cell const& cell_2)
+	{
+		return cell_1.straight_dist < cell_2.straight_dist; 
+	}
+};
+
 struct maze_props{
 
 	int init_row;
@@ -166,6 +175,28 @@ bool frontierCheckPush_dfs(stack<cell*>& frontier, cell** maze, maze_props props
 	return false;
 }
 
+//the only difference with the above is that the first parameter is a priority queue instead of a queue
+bool frontierCheckPush_greedy(priority_queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
+
+	if (x<0 || y<0 || y>props.num_rows-1 || x>props.num_cols-1) {
+		return false;
+	}
+
+	
+	cell* candidate_cell = &(maze[y][x]);
+	
+	if (candidate_cell->visited)
+		return false;
+		
+	if (!candidate_cell->wall) {
+		frontier.push(candidate_cell);
+		candidate_cell->previous = previous_cell;
+		return true;
+	}
+	
+	return false;
+}
+
 double calc__linear_dist(cell* curr, cell* dest)
 {
 	int arg_1 = dest->x - curr->x;
@@ -279,6 +310,7 @@ void dfs(cell** maze, maze_props props)
 	{
 		//cout << "while" << endl;
 		current_cell = frontier.top();
+		current_cell->visited = true;
 		frontier.pop();
 		expansions++;
 
@@ -307,8 +339,38 @@ void dfs(cell** maze, maze_props props)
 
 void greedy(cell** maze, maze_props props)
 {
-	//cell* current_cell;
-	//vector<cell* 
+	cell* current_cell;
+	priority_queue <cell*> frontier;
+	frontier.push(props.start);
+
+	int expansions = 0;
+
+	while(!frontier.empty())
+	{
+		//current_cell is the cell with the lowest heuristic
+		//see overloaded operator in struct Comp (below struct cell)
+		current_cell = frontier.top();
+		current_cell->visited = true;
+		frontier.pop();
+		expansions++;
+
+		int cx = current_cell->x, cy = current_cell->y;
+		//a root node, push all children onto priority queue
+		frontierCheckPush_greedy(frontier, maze, props, current_cell, cy,	cx+1) ;
+		frontierCheckPush_greedy(frontier, maze, props, current_cell, cy+1,cx	) ;
+		frontierCheckPush_greedy(frontier, maze, props, current_cell, cy,	cx-1) ;
+		frontierCheckPush_greedy(frontier, maze, props, current_cell, cy-1,cx	) ;
+
+		if(current_cell == props.goal)
+		{
+			break;
+		}
+
+		//only expand node with lowest heuristic
+		if(DEBUG)
+			print_progress(props, maze, expansions);
+
+	}
 
 }
 
@@ -381,7 +443,7 @@ int main(void)
 	
 	//bfs(maze, props);
 	//dfs(maze, props);
-
+	greedy(maze, props);
 
 	//double test_dist = calc__linear_dist(props.start, props.goal);
 	//cout << "Linear distance from start to goal: " << test_dist << endl;
