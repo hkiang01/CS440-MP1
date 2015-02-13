@@ -24,10 +24,10 @@ struct cell{
 	int x;
 	int y;
 
-	double straight_dist;
+	double manhattan_dist;
 	int step_cost;
 
-	cell() : visited(false), previous(NULL), straight_dist(0), step_cost(0) {}
+	cell() : visited(false), previous(NULL), manhattan_dist(0), step_cost(0) {}
 };
 
 //referenced https://stackoverflow.com/questions/9178083/priority-queue-for-user-defined-types
@@ -35,7 +35,7 @@ struct cell{
 struct Comp {
 	bool operator()(cell const& cell_1, cell const& cell_2)
 	{
-		return cell_1.straight_dist < cell_2.straight_dist; 
+		return (cell_1.manhattan_dist + cell_1.step_cost) < (cell_2.manhattan_dist + cell_2.step_cost); 
 	}
 };
 
@@ -180,7 +180,7 @@ bool frontierCheckPush_dfs(stack<cell*>& frontier, cell** maze, maze_props props
 }
 
 //the only difference with the above is that the first parameter is a priority queue instead of a queue
-bool frontierCheckPush_greedy(priority_queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
+bool frontierCheckPush_greedy_astar(priority_queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
 
 	if (x<0 || y<0 || y>props.num_rows-1 || x>props.num_cols-1) {
 		return false;
@@ -364,10 +364,55 @@ void greedy(cell** maze, maze_props props)
 
 		int cx = current_cell->x, cy = current_cell->y;
 		//a root node, push all children onto priority queue
-		frontierCheckPush_greedy(frontier, maze, props, current_cell, cy,	cx+1) ;
-		frontierCheckPush_greedy(frontier, maze, props, current_cell, cy+1,cx	) ;
-		frontierCheckPush_greedy(frontier, maze, props, current_cell, cy,	cx-1) ;
-		frontierCheckPush_greedy(frontier, maze, props, current_cell, cy-1,cx	) ;
+		frontierCheckPush_greedy_astar(frontier, maze, props, current_cell, cy,	cx+1) ;
+		frontierCheckPush_greedy_astar(frontier, maze, props, current_cell, cy+1,cx	) ;
+		frontierCheckPush_greedy_astar(frontier, maze, props, current_cell, cy,	cx-1) ;
+		frontierCheckPush_greedy_astar(frontier, maze, props, current_cell, cy-1,cx	) ;
+
+		if(current_cell == props.goal)
+		{
+			break;
+		}
+
+		//only expand node with lowest heuristic
+		if(DEBUG)
+			print_progress(props, maze, expansions);
+
+	}
+
+}
+
+void astar(cell** maze, maze_props props)
+{
+	cell* current_cell;
+	priority_queue <cell*> frontier;
+	frontier.push(props.start);
+
+	int expansions = 0;
+
+	while(!frontier.empty())
+	{
+		//current_cell is the cell with the lowest heuristic
+		//see overloaded operator in struct Comp (below struct cell)
+		current_cell = frontier.top();
+		current_cell->visited = true;
+		if(current_cell->previous==NULL)
+		{
+			current_cell->step_cost=0;
+		}
+		else
+		{
+			current_cell->step_cost = current_cell->previous->step_cost+1;
+		}
+		frontier.pop();
+		expansions++;
+
+		int cx = current_cell->x, cy = current_cell->y;
+		//a root node, push all children onto priority queue
+		frontierCheckPush_greedy_astar(frontier, maze, props, current_cell, cy,	cx+1) ;
+		frontierCheckPush_greedy_astar(frontier, maze, props, current_cell, cy+1,cx	) ;
+		frontierCheckPush_greedy_astar(frontier, maze, props, current_cell, cy,	cx-1) ;
+		frontierCheckPush_greedy_astar(frontier, maze, props, current_cell, cy-1,cx	) ;
 
 		if(current_cell == props.goal)
 		{
@@ -423,15 +468,15 @@ int main(void)
 	props.num_rows = num_rows;
 	props.num_cols = num_cols;
 
-	//initialize straight_dist heuristic
+	//initialize manhattan_dist heuristic
 	for(int i=0; i<num_rows; i++)
 	{
 		for(int j=0; j<num_cols; j++)
 		{
-			maze[i][j].straight_dist = calc__manhattan_dist(&maze[i][j], props.goal);
+			maze[i][j].manhattan_dist = calc__manhattan_dist(&maze[i][j], props.goal);
 			if(DEBUG_INIT)
 			{
-				//cout << "Distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].straight_dist << endl;
+				//cout << "Distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].manhattan_dist << endl;
 			}
 		}
 	}
@@ -441,19 +486,20 @@ int main(void)
 		cout << "The goal is at row: " << props.goal->x << " and col: " << props.goal->y << endl;
 	}
 	
-	/*
+	
 	for(int i=0; i<num_rows; i++) {
 		for (int j=0; j<num_cols; j++) {
 			cout << ((maze[i][j].wall)? 'W':' ') ;
 		}
 		cout << endl;
 	}
-	*/
+	
 	
 	//bfs(maze, props);
 	//dfs(maze, props);
 	//greedy(maze, props);
+	astar(maze, props);
 
-	double test_dist = calc__manhattan_dist(props.start, props.goal);
-	cout << "Manhattan distance from start to goal: " << test_dist << endl;
+	//double test_dist = calc__manhattan_dist(props.start, props.goal);
+	//cout << "Manhattan distance from start to goal: " << test_dist << endl;
 }
