@@ -6,6 +6,9 @@
 #include <stack>
 #include <vector>
 #include <math.h>
+#include <cmath>
+//referenced: cplusplus.com for use of libraries for...
+//fstream, iostream, sleep in unistd.h, stack, queue, priority queue, math
 
 using namespace std;
 
@@ -22,8 +25,9 @@ struct cell{
 	int y;
 
 	double straight_dist;
-	
-	cell() : visited(false), previous(NULL), straight_dist(0) {}
+	int step_cost;
+
+	cell() : visited(false), previous(NULL), straight_dist(0), step_cost(0) {}
 };
 
 //referenced https://stackoverflow.com/questions/9178083/priority-queue-for-user-defined-types
@@ -197,13 +201,17 @@ bool frontierCheckPush_greedy(priority_queue<cell*>& frontier, cell** maze, maze
 	return false;
 }
 
-double calc__linear_dist(cell* curr, cell* dest)
+//referenced: https://math.stackexchange.com/questions/139600/euclidean-manhattan-distance
+double calc__manhattan_dist(cell* curr, cell* dest)
 {
-	int arg_1 = dest->x - curr->x;
-	int arg_2 = dest->y - curr->y;
-	arg_1 = pow(arg_1, 2);
-	arg_2 = pow(arg_2, 2);
-	return sqrt(arg_1 + arg_2);
+	//int arg_1 = dest->x - curr->x;
+	//int arg_2 = dest->y - curr->y;
+	//arg_1 = pow(arg_1, 2);
+	//arg_2 = pow(arg_2, 2);
+	//return sqrt(arg_1 + arg_2);
+	int arg_1 = abs(dest->x - curr->x);
+	int arg_2 = abs(dest->y - curr->y);
+	return arg_1 + arg_2;
 }
 
 
@@ -420,10 +428,10 @@ int main(void)
 	{
 		for(int j=0; j<num_cols; j++)
 		{
-			maze[i][j].straight_dist = calc__linear_dist(&maze[i][j], props.goal);
+			maze[i][j].straight_dist = calc__manhattan_dist(&maze[i][j], props.goal);
 			if(DEBUG_INIT)
 			{
-				cout << "Distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].straight_dist << endl;
+				//cout << "Distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].straight_dist << endl;
 			}
 		}
 	}
@@ -433,18 +441,19 @@ int main(void)
 		cout << "The goal is at row: " << props.goal->x << " and col: " << props.goal->y << endl;
 	}
 	
-	
+	/*
 	for(int i=0; i<num_rows; i++) {
 		for (int j=0; j<num_cols; j++) {
 			cout << ((maze[i][j].wall)? 'W':' ') ;
 		}
 		cout << endl;
 	}
+	*/
 	
 	//bfs(maze, props);
 	//dfs(maze, props);
-	greedy(maze, props);
+	//greedy(maze, props);
 
-	//double test_dist = calc__linear_dist(props.start, props.goal);
-	//cout << "Linear distance from start to goal: " << test_dist << endl;
+	double test_dist = calc__manhattan_dist(props.start, props.goal);
+	cout << "Manhattan distance from start to goal: " << test_dist << endl;
 }
