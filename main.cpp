@@ -5,10 +5,12 @@
 #include <unistd.h> //for sleep
 #include <stack>
 #include <vector>
+#include <math.h>
 
 using namespace std;
 
 #define DEBUG true
+#define DEBUG_INIT true
 
 struct cell{
 	
@@ -18,8 +20,19 @@ struct cell{
 	
 	int x;
 	int y;
+
+	double straight_dist;
 	
-	cell() : visited(false), previous(NULL) {}
+	cell() : visited(false), previous(NULL), straight_dist(0) {}
+};
+
+//referenced https://stackoverflow.com/questions/9178083/priority-queue-for-user-defined-types
+//for the priority queue in greedy best first search
+struct Comp {
+	bool operator()(cell const& cell_1, cell const& cell_2)
+	{
+		return cell_1.straight_dist < cell_2.straight_dist; 
+	}
 };
 
 struct maze_props{
@@ -155,11 +168,44 @@ bool frontierCheckPush_dfs(stack<cell*>& frontier, cell** maze, maze_props props
 		
 	if (!candidate_cell->wall) {
 		frontier.push(candidate_cell);
+		candidate_cell->previous = previous_cell;
 		return true;
 	}
 	
 	return false;
 }
+
+//the only difference with the above is that the first parameter is a priority queue instead of a queue
+bool frontierCheckPush_greedy(priority_queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
+
+	if (x<0 || y<0 || y>props.num_rows-1 || x>props.num_cols-1) {
+		return false;
+	}
+
+	
+	cell* candidate_cell = &(maze[y][x]);
+	
+	if (candidate_cell->visited)
+		return false;
+		
+	if (!candidate_cell->wall) {
+		frontier.push(candidate_cell);
+		candidate_cell->previous = previous_cell;
+		return true;
+	}
+	
+	return false;
+}
+
+double calc__linear_dist(cell* curr, cell* dest)
+{
+	int arg_1 = dest->x - curr->x;
+	int arg_2 = dest->y - curr->y;
+	arg_1 = pow(arg_1, 2);
+	arg_2 = pow(arg_2, 2);
+	return sqrt(arg_1 + arg_2);
+}
+
 
 void process_line(cell** maze, string curr_line, int curr_height, maze_props &props)
 {
@@ -264,6 +310,7 @@ void dfs(cell** maze, maze_props props)
 	{
 		//cout << "while" << endl;
 		current_cell = frontier.top();
+		current_cell->visited = true;
 		frontier.pop();
 		expansions++;
 
@@ -290,7 +337,42 @@ void dfs(cell** maze, maze_props props)
 
 }
 
+void greedy(cell** maze, maze_props props)
+{
+	cell* current_cell;
+	priority_queue <cell*> frontier;
+	frontier.push(props.start);
 
+	int expansions = 0;
+
+	while(!frontier.empty())
+	{
+		//current_cell is the cell with the lowest heuristic
+		//see overloaded operator in struct Comp (below struct cell)
+		current_cell = frontier.top();
+		current_cell->visited = true;
+		frontier.pop();
+		expansions++;
+
+		int cx = current_cell->x, cy = current_cell->y;
+		//a root node, push all children onto priority queue
+		frontierCheckPush_greedy(frontier, maze, props, current_cell, cy,	cx+1) ;
+		frontierCheckPush_greedy(frontier, maze, props, current_cell, cy+1,cx	) ;
+		frontierCheckPush_greedy(frontier, maze, props, current_cell, cy,	cx-1) ;
+		frontierCheckPush_greedy(frontier, maze, props, current_cell, cy-1,cx	) ;
+
+		if(current_cell == props.goal)
+		{
+			break;
+		}
+
+		//only expand node with lowest heuristic
+		if(DEBUG)
+			print_progress(props, maze, expansions);
+
+	}
+
+}
 
 int main(void)
 {
@@ -333,9 +415,20 @@ int main(void)
 	props.num_rows = num_rows;
 	props.num_cols = num_cols;
 
+	//initialize straight_dist heuristic
+	for(int i=0; i<num_rows; i++)
+	{
+		for(int j=0; j<num_cols; j++)
+		{
+			maze[i][j].straight_dist = calc__linear_dist(&maze[i][j], props.goal);
+			if(DEBUG_INIT)
+			{
+				cout << "Distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].straight_dist << endl;
+			}
+		}
+	}
 
-
-	if(DEBUG) {
+	if(DEBUG_INIT) {
 		cout << "The init is at row: " << props.start->x << " and col: " << props.start->y << endl;
 		cout << "The goal is at row: " << props.goal->x << " and col: " << props.goal->y << endl;
 	}
@@ -348,7 +441,10 @@ int main(void)
 		cout << endl;
 	}
 	
-	bfs(maze, props);
+	//bfs(maze, props);
 	//dfs(maze, props);
-	
+	greedy(maze, props);
+
+	//double test_dist = calc__linear_dist(props.start, props.goal);
+	//cout << "Linear distance from start to goal: " << test_dist << endl;
 }
