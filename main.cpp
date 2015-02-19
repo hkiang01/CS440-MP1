@@ -76,7 +76,16 @@ int calc_path_cost(node* curr_node, maze_props &props, int curr_cost)
 }
 */
 
-void print_solution_bfs(cell** maze, maze_props props) {
+void memory_cleanup(cell** maze, maze_props props)
+{
+	for(int i = props.num_rows-1; i>=0; i--)
+	{
+		delete[] maze[i];
+	}
+	return;
+}
+
+void print_solution_bfs(cell** maze, maze_props props, int offset) {
 	cout << "Solution: " << endl;
 	
 	if(!(props.goal)->visited) {
@@ -99,7 +108,7 @@ void print_solution_bfs(cell** maze, maze_props props) {
 	}
 	
 	cout << endl;
-	cout << "Found path of length " << path_length << endl;
+	cout << "Found path of length " << path_length + offset << endl;
 	for(int i = path_length-1; i>=0; i--) {
 		cout << "(" << path[i]->x << "," << path[i]->y << ") -> " ;
 	}
@@ -108,7 +117,7 @@ void print_solution_bfs(cell** maze, maze_props props) {
 
 void print_solution_dfs(cell** maze, maze_props props) {
 	props.goal->visited = true;
-	print_solution_bfs(maze, props);
+	print_solution_bfs(maze, props, -1);
 
 }
 
@@ -140,7 +149,7 @@ void print_progress(maze_props props, cell** maze, int expansions)
 	{
 		cout << endl;
 	} 
-	usleep(155000); //sleep 0.25 sec
+	usleep(55000); //sleep 0.25 sec
 }
 
 bool frontierCheckPush_bfs(queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
@@ -190,7 +199,6 @@ bool frontierCheckPush_greedy_astar(priority_queue<cell*>& frontier, cell** maze
 	if (x<0 || y<0 || y>props.num_rows-1 || x>props.num_cols-1) {
 		return false;
 	}
-
 	
 	cell* candidate_cell = &(maze[y][x]);
 	
@@ -269,7 +277,7 @@ void process_line(cell** maze, string curr_line, int curr_height, maze_props &pr
 
 }
 
-/* Doesn't return a solution yet, since it doesn't keep track of the nodes taken */
+//reference: https://en.wikipedia.org/wiki/Breadth-first_search
 void bfs(cell** maze, maze_props props) {
 
 	cell* current_cell;
@@ -307,10 +315,14 @@ void bfs(cell** maze, maze_props props) {
 			print_progress(props, maze, expansions);//, found);
 	}
 	
-	print_solution_bfs(maze, props);
+	print_solution_bfs(maze, props, 0);
+
+	//memory cleanup
+	memory_cleanup(maze, props);
+
 }
 
-
+//reference: https://en.wikipedia.org/wiki/Depth-first_search
 void dfs(cell** maze, maze_props props)
 {
 	cell* current_cell;
@@ -345,7 +357,9 @@ void dfs(cell** maze, maze_props props)
 		if(DEBUG)
 			print_progress(props, maze, expansions);
 	}
+	//offset -1 in print_solution_dfs definition
 	print_solution_dfs(maze, props);
+	memory_cleanup(maze, props);
 
 }
 
@@ -383,6 +397,8 @@ void greedy(cell** maze, maze_props props)
 			print_progress(props, maze, expansions);
 
 	}
+	print_solution_bfs(maze, props, 0);
+	memory_cleanup(maze, props);
 
 }
 
@@ -428,8 +444,18 @@ void astar(cell** maze, maze_props props)
 			print_progress(props, maze, expansions);
 
 	}
+		print_solution_bfs(maze, props, 0);
+		//cout << "Step cost of goal: " << maze[props.goal_col][props.goal_row].step_cost << endl;
+		int test_goal_row = props.goal_row;
+		int test_goal_col = props.goal_col;
 
-}
+		cell* goal_cell = &maze[test_goal_row][test_goal_col];
+		int goal_step_cost = goal_cell->step_cost;
+		cout << "Goal step cost: " << goal_step_cost << endl;
+
+		memory_cleanup(maze, props);
+}		
+
 
 int main(void)
 {
@@ -480,7 +506,7 @@ int main(void)
 			maze[i][j].manhattan_dist = calc__manhattan_dist(&maze[i][j], props.goal);
 			if(DEBUG_INIT)
 			{
-				//cout << "Distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].manhattan_dist << endl;
+				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].manhattan_dist << endl;
 			}
 		}
 	}
@@ -499,8 +525,8 @@ int main(void)
 	}
 	
 	
-	//bfs(maze, props);
-	dfs(maze, props);
+	bfs(maze, props);
+	//dfs(maze, props);
 	//greedy(maze, props);
 	//astar(maze, props);
 
