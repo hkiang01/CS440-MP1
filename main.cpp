@@ -443,17 +443,11 @@ void astar(cell** maze, maze_props props)
 		//only expand node with lowest heuristic
 		if(DEBUG)
 			print_progress(props, maze, expansions);
+			cout << "Current step cost: " << current_cell->step_cost << endl;
 
 	}
 		print_solution_bfs(maze, props, 0);
-		//cout << "Step cost of goal: " << maze[props.goal_col][props.goal_row].step_cost << endl;
-		int test_goal_row = props.goal_row;
-		int test_goal_col = props.goal_col;
-
-		cell* goal_cell = &maze[test_goal_row][test_goal_col];
-		int goal_step_cost = goal_cell->step_cost;
-		cout << "Goal step cost: " << goal_step_cost << endl;
-
+		
 		memory_cleanup(maze, props);
 }		
 
@@ -526,10 +520,10 @@ int main(void)
 	}
 	
 	
-	bfs(maze, props);
+	//bfs(maze, props);
 	//dfs(maze, props);
 	//greedy(maze, props);
-	//astar(maze, props);
+	astar(maze, props);
 
 	//double test_dist = calc__manhattan_dist(props.start, props.goal);
 	//cout << "Manhattan distance from start to goal: " << test_dist << endl;
