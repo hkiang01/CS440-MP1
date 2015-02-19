@@ -135,7 +135,7 @@ void print_progress(maze_props props, cell** maze, int expansions)
 	{
 		cout << endl;
 	} 
-	usleep(35000); //sleep 0.25 sec
+	usleep(155000); //sleep 0.25 sec
 }
 
 bool frontierCheckPush_bfs(queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
@@ -318,7 +318,7 @@ void dfs(cell** maze, maze_props props)
 	{
 		//cout << "while" << endl;
 		current_cell = frontier.top();
-		current_cell->visited = true;
+		//current_cell->visited = true;
 		frontier.pop();
 		expansions++;
 
@@ -496,9 +496,9 @@ int main(void)
 	
 	
 	//bfs(maze, props);
-	//dfs(maze, props);
+	dfs(maze, props);
 	//greedy(maze, props);
-	astar(maze, props);
+	//astar(maze, props);
 
 	//double test_dist = calc__manhattan_dist(props.start, props.goal);
 	//cout << "Manhattan distance from start to goal: " << test_dist << endl;
