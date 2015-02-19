@@ -82,6 +82,7 @@ void memory_cleanup(cell** maze, maze_props props)
 	{
 		delete[] maze[i];
 	}
+	delete[] maze;
 	return;
 }
 
