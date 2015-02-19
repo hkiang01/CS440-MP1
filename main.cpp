@@ -76,7 +76,7 @@ int calc_path_cost(node* curr_node, maze_props &props, int curr_cost)
 }
 */
 
-void print_solution(cell** maze, maze_props props) {
+void print_solution_bfs(cell** maze, maze_props props) {
 	cout << "Solution: " << endl;
 	
 	if(!(props.goal)->visited) {
@@ -106,6 +106,11 @@ void print_solution(cell** maze, maze_props props) {
 	cout << endl;
 }
 
+void print_solution_dfs(cell** maze, maze_props props) {
+	props.goal->visited = true;
+	print_solution_bfs(maze, props);
+
+}
 
 void print_progress(maze_props props, cell** maze, int expansions)
 {
@@ -302,7 +307,7 @@ void bfs(cell** maze, maze_props props) {
 			print_progress(props, maze, expansions);//, found);
 	}
 	
-	print_solution(maze, props);
+	print_solution_bfs(maze, props);
 }
 
 
@@ -318,7 +323,6 @@ void dfs(cell** maze, maze_props props)
 	{
 		//cout << "while" << endl;
 		current_cell = frontier.top();
-		//current_cell->visited = true;
 		frontier.pop();
 		expansions++;
 
@@ -341,7 +345,7 @@ void dfs(cell** maze, maze_props props)
 		if(DEBUG)
 			print_progress(props, maze, expansions);
 	}
-	print_solution(maze, props);
+	print_solution_dfs(maze, props);
 
 }
 
