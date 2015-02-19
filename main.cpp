@@ -195,7 +195,7 @@ bool frontierCheckPush_dfs(stack<cell*>& frontier, cell** maze, maze_props props
 }
 
 //the only difference with the above is that the first parameter is a priority queue instead of a queue
-bool frontierCheckPush_greedy_astar(priority_queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
+bool frontierCheckPush_greedy(priority_queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
 
 	if (x<0 || y<0 || y>props.num_rows-1 || x>props.num_cols-1) {
 		return false;
@@ -207,8 +207,29 @@ bool frontierCheckPush_greedy_astar(priority_queue<cell*>& frontier, cell** maze
 		return false;
 		
 	if (!candidate_cell->wall) {
-		frontier.push(candidate_cell);
 		candidate_cell->previous = previous_cell;
+		frontier.push(candidate_cell);
+		return true;
+	}
+	
+	return false;
+}
+
+//the only difference with the above is that before pushing onto the stack the step cost is calculated
+bool frontierCheckPush_astar(priority_queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
+		if (x<0 || y<0 || y>props.num_rows-1 || x>props.num_cols-1) {
+		return false;
+	}
+	
+	cell* candidate_cell = &(maze[y][x]);
+	
+	if (candidate_cell->visited)
+		return false;
+		
+	if (!candidate_cell->wall) {
+		candidate_cell->previous = previous_cell;
+		candidate_cell->step_cost = candidate_cell->previous->step_cost+1;
+		frontier.push(candidate_cell);
 		return true;
 	}
 	
@@ -383,10 +404,10 @@ void greedy(cell** maze, maze_props props)
 
 		int cx = current_cell->x, cy = current_cell->y;
 		//a root node, push all children onto priority queue
-		frontierCheckPush_greedy_astar(frontier, maze, props, current_cell, cy,	cx+1) ;
-		frontierCheckPush_greedy_astar(frontier, maze, props, current_cell, cy+1,cx	) ;
-		frontierCheckPush_greedy_astar(frontier, maze, props, current_cell, cy,	cx-1) ;
-		frontierCheckPush_greedy_astar(frontier, maze, props, current_cell, cy-1,cx	) ;
+		frontierCheckPush_greedy(frontier, maze, props, current_cell, cy,	cx+1) ;
+		frontierCheckPush_greedy(frontier, maze, props, current_cell, cy+1,cx	) ;
+		frontierCheckPush_greedy(frontier, maze, props, current_cell, cy,	cx-1) ;
+		frontierCheckPush_greedy(frontier, maze, props, current_cell, cy-1,cx	) ;
 
 		if(current_cell == props.goal)
 		{
@@ -417,23 +438,15 @@ void astar(cell** maze, maze_props props)
 		//see overloaded operator in struct Comp (below struct cell)
 		current_cell = frontier.top();
 		current_cell->visited = true;
-		if(current_cell->previous==NULL)
-		{
-			current_cell->step_cost=0;
-		}
-		else
-		{
-			current_cell->step_cost = current_cell->previous->step_cost+1;
-		}
 		frontier.pop();
 		expansions++;
 
 		int cx = current_cell->x, cy = current_cell->y;
 		//a root node, push all children onto priority queue
-		frontierCheckPush_greedy_astar(frontier, maze, props, current_cell, cy,	cx+1) ;
-		frontierCheckPush_greedy_astar(frontier, maze, props, current_cell, cy+1,cx	) ;
-		frontierCheckPush_greedy_astar(frontier, maze, props, current_cell, cy,	cx-1) ;
-		frontierCheckPush_greedy_astar(frontier, maze, props, current_cell, cy-1,cx	) ;
+		frontierCheckPush_astar(frontier, maze, props, current_cell, cy,	cx+1) ;
+		frontierCheckPush_astar(frontier, maze, props, current_cell, cy+1,cx	) ;
+		frontierCheckPush_astar(frontier, maze, props, current_cell, cy,	cx-1) ;
+		frontierCheckPush_astar(frontier, maze, props, current_cell, cy-1,cx	) ;
 
 		if(current_cell == props.goal)
 		{
@@ -441,13 +454,12 @@ void astar(cell** maze, maze_props props)
 		}
 
 		//only expand node with lowest heuristic
-		if(DEBUG)
-			print_progress(props, maze, expansions);
+		if(DEBUG) {
 			cout << "Current step cost: " << current_cell->step_cost << endl;
-
+			print_progress(props, maze, expansions);
+		}
 	}
 		print_solution_bfs(maze, props, 0);
-		
 		memory_cleanup(maze, props);
 }		
 
@@ -458,7 +470,7 @@ int main(void)
 	int num_cols = 0;
 	int num_rows = 0;
 
-	ifstream myfile ("smallMaze.txt");
+	ifstream myfile ("bigMaze.txt");
 	//cout << "Unable to open file." << endl;
 	//std::ofstream outfile ("output_small.txt");
 
