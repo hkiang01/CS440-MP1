@@ -15,29 +15,32 @@ using namespace std;
 #define DEBUG true
 #define DEBUG_INIT true
 
-struct cell{
+class cell{
 	
-	bool wall;
-	bool visited;
-	cell* previous;
+	public:
+		bool wall;
+		bool visited;
+		cell* previous;
+		
+		int x;
+		int y;
 	
-	int x;
-	int y;
+		double manhattan_dist;
+		int step_cost;
 
-	double manhattan_dist;
-	int step_cost;
-
-	cell() : visited(false), previous(NULL), manhattan_dist(0), step_cost(0) {}
+		cell() : visited(false), previous(NULL), manhattan_dist(0), step_cost(0) {}
+		
+		bool operator<(const cell* rhs) const;
 };
 
 //referenced https://stackoverflow.com/questions/9178083/priority-queue-for-user-defined-types
 //for the priority queue in greedy best first search
-struct Comp {
-	bool operator()(cell const& cell_1, cell const& cell_2)
-	{
-		return (cell_1.manhattan_dist + cell_1.step_cost) < (cell_2.manhattan_dist + cell_2.step_cost); 
-	}
-};
+//struct Comp {
+bool cell::operator<(const cell* rhs) const
+{
+	return (step_cost+manhattan_dist < rhs->step_cost+rhs->manhattan_dist );
+}
+//};
 
 struct maze_props{
 
@@ -216,7 +219,7 @@ bool frontierCheckPush_greedy(priority_queue<cell*>& frontier, cell** maze, maze
 }
 
 //the only difference with the above is that before pushing onto the stack the step cost is calculated
-bool frontierCheckPush_astar(priority_queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
+bool frontierCheckPush_astar(priority_queue<cell*, vector<cell*>, less<cell*> >& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
 		if (x<0 || y<0 || y>props.num_rows-1 || x>props.num_cols-1) {
 		return false;
 	}
@@ -431,7 +434,7 @@ void greedy(cell** maze, maze_props props)
 void astar(cell** maze, maze_props props)
 {
 	cell* current_cell;
-	priority_queue <cell*> frontier;
+	priority_queue <cell*, vector<cell*>, less<cell*> > frontier;
 	frontier.push(props.start);
 
 	int expansions = 0;
