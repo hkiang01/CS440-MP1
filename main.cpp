@@ -25,8 +25,9 @@ class cell{
 		int x;
 		int y;
 	
-		double manhattan_dist;
+		int manhattan_dist;
 		int step_cost;
+		int total_cost;
 
 		cell() : visited(false), previous(NULL), manhattan_dist(0), step_cost(0) {}
 		
@@ -153,7 +154,7 @@ void print_progress(maze_props props, cell** maze, int expansions)
 	{
 		cout << endl;
 	} 
-	usleep(55000); //sleep 0.25 sec
+	usleep(550000); //sleep 0.25 sec
 }
 
 bool frontierCheckPush_bfs(queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
@@ -198,7 +199,7 @@ bool frontierCheckPush_dfs(stack<cell*>& frontier, cell** maze, maze_props props
 }
 
 //the only difference with the above is that the first parameter is a priority queue instead of a queue
-bool frontierCheckPush_greedy(priority_queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
+bool frontierCheckPush_greedy(priority_queue<cell*, vector<cell*>, less<cell*> >& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
 
 	if (x<0 || y<0 || y>props.num_rows-1 || x>props.num_cols-1) {
 		return false;
@@ -210,6 +211,7 @@ bool frontierCheckPush_greedy(priority_queue<cell*>& frontier, cell** maze, maze
 		return false;
 		
 	if (!candidate_cell->wall) {
+		candidate_cell->total_cost = candidate_cell->manhattan_dist+candidate_cell->step_cost;
 		candidate_cell->previous = previous_cell;
 		frontier.push(candidate_cell);
 		return true;
@@ -232,6 +234,7 @@ bool frontierCheckPush_astar(priority_queue<cell*, vector<cell*>, less<cell*> >&
 	if (!candidate_cell->wall) {
 		candidate_cell->previous = previous_cell;
 		candidate_cell->step_cost = candidate_cell->previous->step_cost+1;
+		candidate_cell->total_cost = candidate_cell->manhattan_dist+candidate_cell->step_cost;
 		frontier.push(candidate_cell);
 		return true;
 	}
@@ -240,7 +243,7 @@ bool frontierCheckPush_astar(priority_queue<cell*, vector<cell*>, less<cell*> >&
 }
 
 //referenced: https://math.stackexchange.com/questions/139600/euclidean-manhattan-distance
-double calc__manhattan_dist(cell* curr, cell* dest)
+int calc__manhattan_dist(cell* curr, cell* dest)
 {
 	//int arg_1 = dest->x - curr->x;
 	//int arg_2 = dest->y - curr->y;
@@ -395,7 +398,7 @@ void dfs(cell** maze, maze_props props)
 void greedy(cell** maze, maze_props props)
 {
 	cell* current_cell;
-	priority_queue <cell*> frontier;
+	priority_queue <cell*, vector<cell*>, less<cell*> > frontier;
 	frontier.push(props.start);
 
 	int expansions = 0;
@@ -422,8 +425,13 @@ void greedy(cell** maze, maze_props props)
 		}
 
 		//only expand node with lowest heuristic
-		if(DEBUG)
+		//if(DEBUG)
+		//	print_progress(props, maze, expansions);
+		//only expand node with lowest heuristic
+		if(DEBUG) {
+			cout << "Current total cost: " << current_cell->total_cost << endl;
 			print_progress(props, maze, expansions);
+		}
 
 	}
 	print_solution_bfs(maze, props, 0);
@@ -462,7 +470,7 @@ void astar(cell** maze, maze_props props)
 
 		//only expand node with lowest heuristic
 		if(DEBUG) {
-			cout << "Current step cost: " << current_cell->step_cost << endl;
+			cout << "Current total cost: " << current_cell->total_cost << endl;
 			print_progress(props, maze, expansions);
 		}
 	}
