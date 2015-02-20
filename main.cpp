@@ -468,13 +468,22 @@ void astar(cell** maze, maze_props props)
 }		
 
 
-int main(void)
+int main(int argc, char* argv[])
 {
 
+	if (argc!=3) {
+		cout<< "usuck" <<endl;
+		return 1;
+	}
+	
+	char mode = argv[1][0];
+	string m_size = argv[2];
+	
 	int num_cols = 0;
 	int num_rows = 0;
 
-	ifstream myfile ("bigMaze.txt");
+	
+	ifstream myfile (m_size.c_str());
 	//cout << "Unable to open file." << endl;
 	//std::ofstream outfile ("output_small.txt");
 
@@ -536,11 +545,27 @@ int main(void)
 	}
 	
 	
-	//bfs(maze, props);
-	//dfs(maze, props);
-	//greedy(maze, props);
-	astar(maze, props);
+	switch (mode) {
+	
+		case 'b' :
+			bfs(maze, props);
+			break;
 
+		case 'd' :
+			dfs(maze, props);
+			break;
+			
+		case 'g' :
+			greedy(maze, props);
+			break;
+			
+		case 'a' :
+			astar(maze, props);
+			break;
+
+		default:
+			cout<<"usuck"<<endl;
+	}
 	//double test_dist = calc__manhattan_dist(props.start, props.goal);
 	//cout << "Manhattan distance from start to goal: " << test_dist << endl;
 }
