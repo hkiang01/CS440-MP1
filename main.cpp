@@ -244,8 +244,12 @@ double calc__manhattan_dist(cell* curr, cell* dest)
 	//arg_1 = pow(arg_1, 2);
 	//arg_2 = pow(arg_2, 2);
 	//return sqrt(arg_1 + arg_2);
-	int arg_1 = abs(dest->x - curr->x);
-	int arg_2 = abs(dest->y - curr->y);
+	int arg_1 = (dest->x - curr->x);
+	int arg_2 = (dest->y - curr->y);
+	if(arg_1<0)
+		arg_1=-arg_1;
+	if(arg_2<0)
+		arg_2=-arg_2;
 	return arg_1 + arg_2;
 }
 
