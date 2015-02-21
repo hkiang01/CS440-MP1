@@ -15,29 +15,33 @@ using namespace std;
 #define DEBUG true
 #define DEBUG_INIT true
 
-struct cell{
+class cell{
 	
-	bool wall;
-	bool visited;
-	cell* previous;
+	public:
+		bool wall;
+		bool visited;
+		cell* previous;
+		
+		int x;
+		int y;
 	
-	int x;
-	int y;
+		int manhattan_dist;
+		int step_cost;
+		int total_cost;
 
-	double manhattan_dist;
-	int step_cost;
-
-	cell() : visited(false), previous(NULL), manhattan_dist(0), step_cost(0) {}
+		cell() : visited(false), previous(NULL), manhattan_dist(0), step_cost(0) {}
+		
+		bool operator<(const cell* rhs) const;
 };
 
 //referenced https://stackoverflow.com/questions/9178083/priority-queue-for-user-defined-types
 //for the priority queue in greedy best first search
-struct Comp {
-	bool operator()(cell const& cell_1, cell const& cell_2)
-	{
-		return (cell_1.manhattan_dist + cell_1.step_cost) < (cell_2.manhattan_dist + cell_2.step_cost); 
-	}
-};
+//struct Comp {
+bool cell::operator<(const cell* rhs) const
+{
+	return (total_cost > rhs->total_cost );
+}
+//};
 
 struct maze_props{
 
@@ -195,7 +199,7 @@ bool frontierCheckPush_dfs(stack<cell*>& frontier, cell** maze, maze_props props
 }
 
 //the only difference with the above is that the first parameter is a priority queue instead of a queue
-bool frontierCheckPush_greedy(priority_queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
+bool frontierCheckPush_greedy(priority_queue<cell*, vector<cell*>, less<cell*> >& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
 
 	if (x<0 || y<0 || y>props.num_rows-1 || x>props.num_cols-1) {
 		return false;
@@ -207,6 +211,7 @@ bool frontierCheckPush_greedy(priority_queue<cell*>& frontier, cell** maze, maze
 		return false;
 		
 	if (!candidate_cell->wall) {
+		candidate_cell->total_cost = candidate_cell->manhattan_dist+candidate_cell->step_cost;
 		candidate_cell->previous = previous_cell;
 		frontier.push(candidate_cell);
 		return true;
@@ -216,7 +221,7 @@ bool frontierCheckPush_greedy(priority_queue<cell*>& frontier, cell** maze, maze
 }
 
 //the only difference with the above is that before pushing onto the stack the step cost is calculated
-bool frontierCheckPush_astar(priority_queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
+bool frontierCheckPush_astar(priority_queue<cell*, vector<cell*>, less<cell*> >& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
 		if (x<0 || y<0 || y>props.num_rows-1 || x>props.num_cols-1) {
 		return false;
 	}
@@ -229,6 +234,7 @@ bool frontierCheckPush_astar(priority_queue<cell*>& frontier, cell** maze, maze_
 	if (!candidate_cell->wall) {
 		candidate_cell->previous = previous_cell;
 		candidate_cell->step_cost = candidate_cell->previous->step_cost+1;
+		candidate_cell->total_cost = candidate_cell->manhattan_dist+candidate_cell->step_cost;
 		frontier.push(candidate_cell);
 		return true;
 	}
@@ -237,7 +243,7 @@ bool frontierCheckPush_astar(priority_queue<cell*>& frontier, cell** maze, maze_
 }
 
 //referenced: https://math.stackexchange.com/questions/139600/euclidean-manhattan-distance
-double calc__manhattan_dist(cell* curr, cell* dest)
+int calc__manhattan_dist(cell* curr, cell* dest)
 {
 	//int arg_1 = dest->x - curr->x;
 	//int arg_2 = dest->y - curr->y;
@@ -392,7 +398,7 @@ void dfs(cell** maze, maze_props props)
 void greedy(cell** maze, maze_props props)
 {
 	cell* current_cell;
-	priority_queue <cell*> frontier;
+	priority_queue <cell*, vector<cell*>, less<cell*> > frontier;
 	frontier.push(props.start);
 
 	int expansions = 0;
@@ -403,6 +409,7 @@ void greedy(cell** maze, maze_props props)
 		//see overloaded operator in struct Comp (below struct cell)
 		current_cell = frontier.top();
 		current_cell->visited = true;
+		//frontier = priority_queue <cell*, vector<cell*>, less<cell*> >();
 		frontier.pop();
 		expansions++;
 
@@ -419,8 +426,13 @@ void greedy(cell** maze, maze_props props)
 		}
 
 		//only expand node with lowest heuristic
-		if(DEBUG)
+		//if(DEBUG)
+		//	print_progress(props, maze, expansions);
+		//only expand node with lowest heuristic
+		if(DEBUG) {
+			cout << "Current total cost: " << current_cell->total_cost << endl;
 			print_progress(props, maze, expansions);
+		}
 
 	}
 	print_solution_bfs(maze, props, 0);
@@ -431,7 +443,7 @@ void greedy(cell** maze, maze_props props)
 void astar(cell** maze, maze_props props)
 {
 	cell* current_cell;
-	priority_queue <cell*> frontier;
+	priority_queue <cell*, vector<cell*>, less<cell*> > frontier;
 	frontier.push(props.start);
 
 	int expansions = 0;
@@ -459,7 +471,7 @@ void astar(cell** maze, maze_props props)
 
 		//only expand node with lowest heuristic
 		if(DEBUG) {
-			cout << "Current step cost: " << current_cell->step_cost << endl;
+			cout << "Current total cost: " << current_cell->total_cost << endl;
 			print_progress(props, maze, expansions);
 		}
 	}
