@@ -31,13 +31,13 @@ class cell{
 
 		cell() : visited(false), previous(NULL), manhattan_dist(0), step_cost(0) {}
 		
-		bool operator<(const cell* rhs) const;
+		bool operator>(const cell* rhs);
 };
 
 //referenced https://stackoverflow.com/questions/9178083/priority-queue-for-user-defined-types
 //for the priority queue in greedy best first search
 //struct Comp {
-bool cell::operator<(const cell* rhs) const
+bool cell::operator>(const cell* rhs)
 {
 	return (total_cost > rhs->total_cost );
 }
@@ -199,7 +199,7 @@ bool frontierCheckPush_dfs(stack<cell*>& frontier, cell** maze, maze_props props
 }
 
 //the only difference with the above is that the first parameter is a priority queue instead of a queue
-bool frontierCheckPush_greedy(priority_queue<cell*, vector<cell*>, less<cell*> >& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
+bool frontierCheckPush_greedy(priority_queue<cell*, vector<cell*>, greater<cell*> >& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
 
 	if (x<0 || y<0 || y>props.num_rows-1 || x>props.num_cols-1) {
 		return false;
@@ -221,7 +221,7 @@ bool frontierCheckPush_greedy(priority_queue<cell*, vector<cell*>, less<cell*> >
 }
 
 //the only difference with the above is that before pushing onto the stack the step cost is calculated
-bool frontierCheckPush_astar(priority_queue<cell*, vector<cell*>, less<cell*> >& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
+bool frontierCheckPush_astar(priority_queue<cell*, vector<cell*>, greater<cell*> >& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
 		if (x<0 || y<0 || y>props.num_rows-1 || x>props.num_cols-1) {
 		return false;
 	}
@@ -398,7 +398,7 @@ void dfs(cell** maze, maze_props props)
 void greedy(cell** maze, maze_props props)
 {
 	cell* current_cell;
-	priority_queue <cell*, vector<cell*>, less<cell*> > frontier;
+	priority_queue <cell*, vector<cell*>, greater<cell*> > frontier;
 	frontier.push(props.start);
 
 	int expansions = 0;
@@ -443,7 +443,7 @@ void greedy(cell** maze, maze_props props)
 void astar(cell** maze, maze_props props)
 {
 	cell* current_cell;
-	priority_queue <cell*, vector<cell*>, less<cell*> > frontier;
+	priority_queue <cell*, vector<cell*>, greater<cell*> > frontier;
 	frontier.push(props.start);
 
 	int expansions = 0;
