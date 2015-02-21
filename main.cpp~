@@ -15,7 +15,7 @@ using namespace std;
 #define DEBUG true
 #define DEBUG_INIT true
 
-class cell{
+struct cell{
 	
 	public:
 		bool wall;
@@ -31,16 +31,24 @@ class cell{
 
 		cell() : visited(false), previous(NULL), manhattan_dist(0), step_cost(0) {}
 		
-		bool operator>(const cell* lhs, const cell* rhs);
+		//bool operator>(const cell* rhs)
+		//{
+		//	return (this->total_cost > rhs->total_cost );
+		//}
+		//bool operator>(const cell* rhs);
 };
 
+struct NodeGreater
+{
+    bool operator() ( const cell* lhs, const cell* rhs ) const
+    {
+        return lhs->total_cost > rhs->total_cost;
+    }
+};
 //referenced https://stackoverflow.com/questions/9178083/priority-queue-for-user-defined-types
 //for the priority queue in greedy best first search
 //struct Comp {
-bool operator>(const cell* lhs, const cell* rhs)
-{
-	return (lsh->total_cost > rhs->total_cost );
-}
+
 //};
 
 struct maze_props{
@@ -112,7 +120,6 @@ void print_solution_bfs(cell** maze, maze_props props, int offset) {
 		current_cell = current_cell->previous;
 	}
 	
-	cout << endl;
 	cout << "Found path of length " << path_length + offset << endl;
 	for(int i = path_length-1; i>=0; i--) {
 		cout << "(" << path[i]->x << "," << path[i]->y << ") -> " ;
@@ -149,12 +156,12 @@ void print_progress(maze_props props, cell** maze, int expansions)
 	//cout << "Current depth: " << depth << endl;
 	cout << "Nodes expanded: " << expansions << endl;
 	//cout << "Cost: " << cost << endl;
-
+	
 	for(int i=0; i<12; i++)
 	{
 		cout << endl;
 	} 
-	usleep(55000); //sleep 0.25 sec
+	usleep(550000); //sleep 0.25 sec
 }
 
 bool frontierCheckPush_bfs(queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
@@ -199,7 +206,7 @@ bool frontierCheckPush_dfs(stack<cell*>& frontier, cell** maze, maze_props props
 }
 
 //the only difference with the above is that the first parameter is a priority queue instead of a queue
-bool frontierCheckPush_greedy(priority_queue<cell*, vector<cell*>, greater<cell*> >& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
+bool frontierCheckPush_greedy(priority_queue<cell*, vector<cell*>, NodeGreater >& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
 
 	if (x<0 || y<0 || y>props.num_rows-1 || x>props.num_cols-1) {
 		return false;
@@ -221,7 +228,7 @@ bool frontierCheckPush_greedy(priority_queue<cell*, vector<cell*>, greater<cell*
 }
 
 //the only difference with the above is that before pushing onto the stack the step cost is calculated
-bool frontierCheckPush_astar(priority_queue<cell*, vector<cell*>, greater<cell*> >& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
+bool frontierCheckPush_astar(priority_queue<cell*, vector<cell*>, NodeGreater >& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
 		if (x<0 || y<0 || y>props.num_rows-1 || x>props.num_cols-1) {
 		return false;
 	}
@@ -398,7 +405,7 @@ void dfs(cell** maze, maze_props props)
 void greedy(cell** maze, maze_props props)
 {
 	cell* current_cell;
-	priority_queue <cell*, vector<cell*>, greater<cell*> > frontier;
+	priority_queue <cell*, vector<cell*>, NodeGreater > frontier;
 	frontier.push(props.start);
 
 	int expansions = 0;
@@ -431,6 +438,23 @@ void greedy(cell** maze, maze_props props)
 		//only expand node with lowest heuristic
 		if(DEBUG) {
 			cout << "Current total cost: " << current_cell->total_cost << endl;
+			
+			//
+			queue<cell*> f;
+			unsigned int s = frontier.size();
+			for(unsigned int i=0; i<s; i++) {
+				cell* c = frontier.top();
+				frontier.pop();
+				cout << c->total_cost << "(" << c->x << "," << c->y << ");;; ";
+				f.push(c);
+			}
+			for(unsigned int i=0; i<s; i++) {
+				frontier.push(f.front());
+				f.pop();
+			}
+			cout << endl;
+			//
+			
 			print_progress(props, maze, expansions);
 		}
 
@@ -443,7 +467,7 @@ void greedy(cell** maze, maze_props props)
 void astar(cell** maze, maze_props props)
 {
 	cell* current_cell;
-	priority_queue <cell*, vector<cell*>, greater<cell*> > frontier;
+	priority_queue <cell*, vector<cell*>, NodeGreater > frontier;
 	frontier.push(props.start);
 
 	int expansions = 0;
