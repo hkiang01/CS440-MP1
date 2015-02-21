@@ -39,7 +39,7 @@ class cell{
 //struct Comp {
 bool cell::operator<(const cell* rhs) const
 {
-	return (step_cost+manhattan_dist < rhs->step_cost+rhs->manhattan_dist );
+	return (total_cost < rhs->total_cost );
 }
 //};
 
@@ -409,7 +409,7 @@ void greedy(cell** maze, maze_props props)
 		//see overloaded operator in struct Comp (below struct cell)
 		current_cell = frontier.top();
 		current_cell->visited = true;
-		frontier.pop();
+		frontier.clear();
 		expansions++;
 
 		int cx = current_cell->x, cy = current_cell->y;

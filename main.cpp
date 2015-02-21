@@ -39,7 +39,7 @@ class cell{
 //struct Comp {
 bool cell::operator<(const cell* rhs) const
 {
-	return (step_cost+manhattan_dist < rhs->step_cost+rhs->manhattan_dist );
+	return (total_cost < rhs->total_cost );
 }
 //};
 
@@ -154,7 +154,7 @@ void print_progress(maze_props props, cell** maze, int expansions)
 	{
 		cout << endl;
 	} 
-	usleep(550000); //sleep 0.25 sec
+	usleep(55000); //sleep 0.25 sec
 }
 
 bool frontierCheckPush_bfs(queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
@@ -409,7 +409,8 @@ void greedy(cell** maze, maze_props props)
 		//see overloaded operator in struct Comp (below struct cell)
 		current_cell = frontier.top();
 		current_cell->visited = true;
-		frontier.pop();
+		frontier = priority_queue <cell*, vector<cell*>, less<cell*> >();
+//		frontier.pop();
 		expansions++;
 
 		int cx = current_cell->x, cy = current_cell->y;
