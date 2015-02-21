@@ -30,12 +30,6 @@ struct cell{
 		int total_cost;
 
 		cell() : visited(false), previous(NULL), manhattan_dist(0), step_cost(0) {}
-		
-		//bool operator>(const cell* rhs)
-		//{
-		//	return (this->total_cost > rhs->total_cost );
-		//}
-		//bool operator>(const cell* rhs);
 };
 
 struct NodeGreater
@@ -45,11 +39,7 @@ struct NodeGreater
         return lhs->total_cost > rhs->total_cost;
     }
 };
-//referenced https://stackoverflow.com/questions/9178083/priority-queue-for-user-defined-types
-//for the priority queue in greedy best first search
-//struct Comp {
-
-//};
+//referenced https://stackoverflow.com/questions/10223845
 
 struct maze_props{
 
@@ -157,7 +147,7 @@ void print_progress(maze_props props, cell** maze, int expansions)
 	cout << "Nodes expanded: " << expansions << endl;
 	//cout << "Cost: " << cost << endl;
 	
-	for(int i=0; i<12; i++)
+	for(int i=0; i<1; i++)
 	{
 		cout << endl;
 	} 
