@@ -286,6 +286,8 @@ bool frontierCheckPush_astar(priority_queue<cell*, vector<cell*>, NodeGreater >&
 	return false;
 }
 
+
+
 //referenced: https://math.stackexchange.com/questions/139600/euclidean-manhattan-distance
 int calc__manhattan_dist(cell* curr, cell* dest)
 {
@@ -570,6 +572,9 @@ void set_manhattan_distances(cell** maze, maze_props props)
 	}
 }
 
+
+////MP13 A STAR 3 SEARCH//////
+
 void set_manhattan_distances_3(cell** maze, maze_props props, vector<cell*> goals_list)
 {
 	//initialize manhattan_dist heuristic
@@ -585,8 +590,8 @@ void set_manhattan_distances_3(cell** maze, maze_props props, vector<cell*> goal
 				for(unsigned int k = 0; k < goals_list.size(); k++)
 				{
 					int test_dist = calc__manhattan_dist(&maze[i][j], goals_list.at(k));
-					if (test_dist==0)
-						continue;
+					//if (test_dist==0) leave it as 0, if adj node is a goal node, we shud get that first
+					//	continue;
 					if(test_dist<min_dist)
 					{
 						min_dist = test_dist;
@@ -604,6 +609,27 @@ void set_manhattan_distances_3(cell** maze, maze_props props, vector<cell*> goal
 				return;
 		}
 	}
+}
+
+
+//Logic is very different from the previous frontier check push's, primarily, ndoes can be revisited now
+bool frontierCheckPush_astar_3(priority_queue<cell*, vector<cell*>, NodeGreater >& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
+		if (x<0 || y<0 || y>props.num_rows-1 || x>props.num_cols-1) {
+		return false;
+	}
+	
+	cell* candidate_cell = &(maze[y][x]);
+	
+	if (!candidate_cell->wall) {
+		candidate_cell->previous = previous_cell;
+		candidate_cell->step_cost = candidate_cell->previous->step_cost+1;
+		candidate_cell->total_cost = candidate_cell->manhattan_dist+candidate_cell->step_cost;
+		candidate_cell->visited = true;
+		frontier.push(candidate_cell);
+		return true;
+	}
+	
+	return false;
 }
 
 
@@ -629,10 +655,10 @@ void astar_3(cell** maze, maze_props props)
 
 		int cx = current_cell->x, cy = current_cell->y;
 		//a root node, push all children onto priority queue
-		frontierCheckPush_astar(frontier, maze, props, current_cell, cy,	cx+1) ;
-		frontierCheckPush_astar(frontier, maze, props, current_cell, cy+1,cx	) ;
-		frontierCheckPush_astar(frontier, maze, props, current_cell, cy,	cx-1) ;
-		frontierCheckPush_astar(frontier, maze, props, current_cell, cy-1,cx	) ;
+		frontierCheckPush_astar_3(frontier, maze, props, current_cell, cy,	cx+1) ;
+		frontierCheckPush_astar_3(frontier, maze, props, current_cell, cy+1,cx	) ;
+		frontierCheckPush_astar_3(frontier, maze, props, current_cell, cy,	cx-1) ;
+		frontierCheckPush_astar_3(frontier, maze, props, current_cell, cy-1,cx	) ;
 
 		for(unsigned int i=0; i<goals_list.size(); ++i) {
 			if(current_cell == goals_list.at(i))
@@ -648,7 +674,6 @@ void astar_3(cell** maze, maze_props props)
 				queue<cell*> f;
 				unsigned int s = frontier.size();
 				for(unsigned int j=0; j<s; j++) {
-					cout<<endl;
 					cell* c = frontier.top();
 					frontier.pop();
 					cout << c->total_cost << "(" << c->x << "," << c->y << ");;; ";
@@ -658,6 +683,7 @@ void astar_3(cell** maze, maze_props props)
 					frontier.push(f.front());
 					f.pop();
 				}
+				cout<<endl;
 				//
 				break;
 			}
@@ -674,7 +700,12 @@ void astar_3(cell** maze, maze_props props)
 	}
 		print_solution_astar_3(maze, props);
 		memory_cleanup(maze, props);
-}	
+}
+
+
+
+
+
 
 int main(int argc, char* argv[])
 {
