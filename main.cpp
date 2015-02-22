@@ -570,7 +570,7 @@ void set_manhattan_distances(cell** maze, maze_props props)
 	}
 }
 
-void set_manhattan_distances_3(cell** maze, maze_props props)
+void set_manhattan_distances_3(cell** maze, maze_props props, vector<cell*> goals_list)
 {
 	//initialize manhattan_dist heuristic
 	for(int i=0; i<props.num_rows; i++)
@@ -580,13 +580,13 @@ void set_manhattan_distances_3(cell** maze, maze_props props)
 			int min_dist = INT_MAX;
 			cell* min_dist_cell;
 			//for every goal in props.goals
-			for(unsigned int k = 0; k < props.goals.size(); k++)
+			for(unsigned int k = 0; k < goals_list.size(); k++)
 			{
-				int test_dist = calc__manhattan_dist(&maze[i][j], props.goals.at(k));
+				int test_dist = calc__manhattan_dist(&maze[i][j], goals_list.at(k));
 				if(test_dist<min_dist)
 				{
 					min_dist = test_dist;
-					min_dist_cell = &(maze[props.goals.at(k)->y][props.goals.at(k)->x]);
+					min_dist_cell = &(maze[goals_list.at(k)->y][goals_list.at(k)->x]);
 				}
 			}
 			maze[i][j].manhattan_dist = min_dist;
@@ -634,7 +634,7 @@ void astar_3(cell** maze, maze_props props)
 				current_cell->goal_order=goal_counter;
 				goal_counter++;
 				i--;
-				set_manhattan_distances_3(maze, props);
+				set_manhattan_distances_3(maze, props, goals_list);
 			}
 		}
 		if (goals_list.size()==0) {
@@ -724,7 +724,7 @@ int main(int argc, char* argv[])
 			break;
 
 		case 'A' :
-			set_manhattan_distances_3(maze, props);
+			set_manhattan_distances_3(maze, props, props.goals);
 			astar_3(maze, props);
 			break;
 
