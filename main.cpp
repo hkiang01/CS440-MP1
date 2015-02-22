@@ -652,7 +652,7 @@ int main(int argc, char* argv[])
 {
 
 	if (argc!=3) {
-		cout<< "usuck" <<endl;
+		cout<< "Error, usage: ./mp1 [search flag] [maze file name]" <<endl;
 		return 1;
 	}
 	
@@ -726,7 +726,8 @@ int main(int argc, char* argv[])
 			break;
 
 		default:
-			cout<<"usuck"<<endl;
+			cout<<"invalid search flags, choose: b, d, g, a, A"<<endl;
+			return 1;
 	}
 
 	if(DEBUG_INIT) {
