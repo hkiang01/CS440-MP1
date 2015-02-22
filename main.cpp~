@@ -38,8 +38,8 @@ struct NodeGreater
 {
     bool operator() ( const cell* lhs, const cell* rhs ) const
     {
-    	if (lhs->total_cost == rhs->total_cost) 
-    		return lhs->manhattan_dist > rhs->manhattan_dist;
+    	//if (lhs->total_cost == rhs->total_cost) 
+    	//	return lhs->manhattan_dist < rhs->manhattan_dist;
         return lhs->total_cost > rhs->total_cost;
     }
 };
@@ -243,6 +243,7 @@ bool frontierCheckPush_astar(priority_queue<cell*, vector<cell*>, NodeGreater >&
 		candidate_cell->previous = previous_cell;
 		candidate_cell->step_cost = candidate_cell->previous->step_cost+1;
 		candidate_cell->total_cost = candidate_cell->manhattan_dist+candidate_cell->step_cost;
+		candidate_cell->visited = true;
 		frontier.push(candidate_cell);
 		return true;
 	}
@@ -464,6 +465,7 @@ void astar(cell** maze, maze_props props)
 {
 	cell* current_cell;
 	priority_queue <cell*, vector<cell*>, NodeGreater > frontier;
+	(props.start)->visited=true;
 	frontier.push(props.start);
 
 	int expansions = 0;
@@ -473,7 +475,7 @@ void astar(cell** maze, maze_props props)
 		//current_cell is the cell with the lowest heuristic
 		//see overloaded operator in struct Comp (below struct cell)
 		current_cell = frontier.top();
-		current_cell->visited = true;
+		//current_cell->visited = true;
 		frontier.pop();
 		expansions++;
 

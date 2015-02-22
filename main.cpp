@@ -38,8 +38,8 @@ struct NodeGreater
 {
     bool operator() ( const cell* lhs, const cell* rhs ) const
     {
-    	if (lhs->total_cost == rhs->total_cost) 
-    		return lhs->manhattan_dist > rhs->manhattan_dist;
+    	//if (lhs->total_cost == rhs->total_cost) 
+    	//	return lhs->manhattan_dist < rhs->manhattan_dist;
         return lhs->total_cost > rhs->total_cost;
     }
 };
@@ -112,7 +112,7 @@ void print_solution_bfs(cell** maze, maze_props props, int offset) {
 	vector<cell*> path;
 	int path_length = 0;
 	
-	while(current_cell != NULL) {
+	while(current_cell != NULL && current_cell!=props.start) {
 		if (DEBUG)
 			cout << current_cell->x << "," << current_cell->y << "    ";
 		usleep(1500);
@@ -243,6 +243,7 @@ bool frontierCheckPush_astar(priority_queue<cell*, vector<cell*>, NodeGreater >&
 		candidate_cell->previous = previous_cell;
 		candidate_cell->step_cost = candidate_cell->previous->step_cost+1;
 		candidate_cell->total_cost = candidate_cell->manhattan_dist+candidate_cell->step_cost;
+		candidate_cell->visited = true;
 		frontier.push(candidate_cell);
 		return true;
 	}
@@ -435,7 +436,7 @@ void greedy(cell** maze, maze_props props)
 		if(DEBUG) {
 			cout << "Current total cost: " << current_cell->total_cost << endl;
 			
-			/*
+			//
 			queue<cell*> f;
 			unsigned int s = frontier.size();
 			for(unsigned int i=0; i<s; i++) {
@@ -449,7 +450,7 @@ void greedy(cell** maze, maze_props props)
 				f.pop();
 			}
 			cout << endl;
-			*/
+			//
 			
 			print_progress(props, maze, expansions);
 		}
@@ -464,6 +465,7 @@ void astar(cell** maze, maze_props props)
 {
 	cell* current_cell;
 	priority_queue <cell*, vector<cell*>, NodeGreater > frontier;
+	(props.start)->visited=true;
 	frontier.push(props.start);
 
 	int expansions = 0;
@@ -473,7 +475,7 @@ void astar(cell** maze, maze_props props)
 		//current_cell is the cell with the lowest heuristic
 		//see overloaded operator in struct Comp (below struct cell)
 		current_cell = frontier.top();
-		current_cell->visited = true;
+		//current_cell->visited = true;
 		frontier.pop();
 		expansions++;
 
