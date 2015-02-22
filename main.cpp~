@@ -599,6 +599,7 @@ void set_manhattan_distances_3(cell** maze, maze_props props, vector<cell*> goal
 				}
 				maze[i][j].manhattan_dist = min_dist;
 				maze[i][j].nearest_goal = min_dist_cell;
+				maze[i][j].total_cost = maze[i][j].manhattan_dist+maze[i][j].step_cost;// + calc__manhattan_dist(candidate_cell, previous_cell);
 				if(DEBUG_INIT)
 				{
 					//cout << "Manhattan distance from [" << i << "][" << j << "] to [" << min_dist_cell->y << "][" << min_dist_cell->x << "]: " << maze[i][j].manhattan_dist << endl;
@@ -622,7 +623,7 @@ bool frontierCheckPush_astar_3(priority_queue<cell*, vector<cell*>, NodeGreater 
 	if (!candidate_cell->wall) {
 		candidate_cell->previous = previous_cell;
 		candidate_cell->step_cost = candidate_cell->previous->step_cost+1;
-		candidate_cell->total_cost = candidate_cell->manhattan_dist+candidate_cell->step_cost;
+		candidate_cell->total_cost = candidate_cell->manhattan_dist+candidate_cell->step_cost;// + calc__manhattan_dist(candidate_cell, previous_cell);
 		candidate_cell->visited = true;
 		frontier.push(candidate_cell);
 		return true;
@@ -648,8 +649,12 @@ void astar_3(cell** maze, maze_props props)
 		//current_cell is the cell with the lowest heuristic
 		//see overloaded operator in struct Comp (below struct cell)
 		current_cell = frontier.top();
-		current_cell->visited = true;
+		//current_cell->visited = true;
 		frontier.pop();
+		if(DEBUG) {
+			cout << "Expanding " << current_cell->x << "," << current_cell->y ;
+		}
+		
 		expansions++;
 
 		int cx = current_cell->x, cy = current_cell->y;
