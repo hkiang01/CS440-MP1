@@ -624,10 +624,40 @@ bool frontierCheckPush_astar_3(priority_queue<cell*, vector<cell*>, NodeGreater 
 		candidate_cell->step_cost = candidate_cell->previous->step_cost+1;
 		candidate_cell->total_cost = candidate_cell->manhattan_dist+candidate_cell->step_cost;
 		candidate_cell->visited = true;
+
+		//replace duplicate in frontier with new distance
+		stack<cell*> temp_stack;
+		cell* temp_cell;
+		for(unsigned int i = 0; i < frontier.size(); ++i)
+		{
+			temp_cell = frontier.top();
+			if(temp_cell->x==x && temp_cell->y==y)
+			{
+				frontier.pop();
+				frontier.push(candidate_cell);
+				break;
+			}
+			temp_stack.push(temp_cell);
+			frontier.pop();
+		}
+		
+		//push stack back onto frontier
+		if(temp_stack.size()>0)
+		{
+			for(unsigned int j = 0; j < temp_stack.size(); ++j)
+			{
+				temp_cell = temp_stack.top();
+				frontier.push(temp_cell);
+				temp_stack.pop();
+			}
+		}
+
 		frontier.push(candidate_cell);
 		return true;
 	}
 	
+
+
 	return false;
 }
 
