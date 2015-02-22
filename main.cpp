@@ -51,7 +51,7 @@ struct GoalGreater
 {
     bool operator() ( const cell* lhs, const cell* rhs ) const
     {
-        return lhs->goal_order > rhs->goal_order;
+        return lhs->goal_order < rhs->goal_order;
     }
 } goalgreater;
 
@@ -150,10 +150,10 @@ void print_solution_dfs(cell** maze, maze_props props) {
 void print_solution_astar_3(cell** maze, maze_props props)
 {
 	sort(props.goals.begin(), props.goals.end(), goalgreater);
-	cout << "Goal  | coordinates" << endl;
+	cout << "Goal | coordinates" << endl;
 	for(unsigned int i = 0; i < props.goals.size(); i++)
 	{
-		cout << i+1 << "   (" << props.goals.at(i)->x << ", " << props.goals.at(i)->y << ")" << endl;
+		cout << i+1 << "\t(" << props.goals.at(i)->x << ", " << props.goals.at(i)->y << ")" << endl;
 	}
 }
 

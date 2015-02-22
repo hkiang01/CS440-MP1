@@ -8,6 +8,7 @@
 #include <math.h>
 #include <cmath>
 #include <climits>
+#include <algorithm>
 //referenced: cplusplus.com for use of libraries for...
 //fstream, iostream, sleep in unistd.h, stack, queue, priority queue, math
 
@@ -30,8 +31,9 @@ struct cell{
 		cell* nearest_goal;
 		int step_cost;
 		int total_cost;
+		int goal_order;
 
-		cell() : visited(false), previous(NULL), manhattan_dist(0), step_cost(0) {}
+		cell() : visited(false), previous(NULL), manhattan_dist(0), step_cost(0), goal_order(-1) {}
 };
 
 struct NodeGreater
@@ -44,6 +46,15 @@ struct NodeGreater
     }
 };
 //referenced https://stackoverflow.com/questions/10223845
+
+struct GoalGreater
+{
+    bool operator() ( const cell* lhs, const cell* rhs ) const
+    {
+        return lhs->goal_order > rhs->goal_order;
+    }
+} goalgreater;
+
 
 struct maze_props{
 
@@ -134,6 +145,18 @@ void print_solution_dfs(cell** maze, maze_props props) {
 
 }
 
+
+
+void print_solution_astar_3(cell** maze, maze_props props)
+{
+	sort(props.goals.begin(), props.goals.end(), goalgreater);
+	cout << "Goal | coordinates" << endl;
+	for(unsigned int i = 0; i < props.goals.size(); i++)
+	{
+		cout << i+1 << "\t(" << props.goals.at(i)->x << ", " << props.goals.at(i)->y << ")" << endl;
+	}
+}
+
 void print_progress(maze_props props, cell** maze, int expansions)
 {
 	//Progress In Text
@@ -150,7 +173,9 @@ void print_progress(maze_props props, cell** maze, int expansions)
 				if(i==props.goals.at(k)->y && j==props.goals.at(k)->x)
 				{
 					if (maze[i][j].visited)
+					{
 						cout << '*';
+					}
 					else
 						cout << 'G';
 					continue_flag=true;
@@ -537,6 +562,7 @@ void astar_3(cell** maze, maze_props props)
 	frontier.push(props.start);
 
 	int expansions = 0;
+	int goal_counter = 0;
 
 	while(!frontier.empty())
 	{
@@ -558,6 +584,8 @@ void astar_3(cell** maze, maze_props props)
 			if(current_cell == goals_list.at(i))
 			{
 				goals_list.erase(goals_list.begin()+i);
+				current_cell->goal_order=goal_counter;
+				goal_counter++;
 				i--;
 			}
 		}
@@ -571,7 +599,7 @@ void astar_3(cell** maze, maze_props props)
 			print_progress(props, maze, expansions);
 		}
 	}
-		print_solution_bfs(maze, props, 0);
+		print_solution_astar_3(maze, props);
 		memory_cleanup(maze, props);
 }	
 
@@ -636,7 +664,13 @@ int main(int argc, char* argv[])
 
 	
 	ifstream myfile (m_size.c_str());
-
+	
+	if(!myfile.is_open()) {
+		cout << "Error opening file" <<endl;
+		
+		return 1;
+	}
+	
 	cell** maze;
 	maze_props props;
 
