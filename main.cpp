@@ -553,6 +553,53 @@ void astar(cell** maze, maze_props props)
 		memory_cleanup(maze, props);
 }		
 
+
+void set_manhattan_distances(cell** maze, maze_props props)
+{
+		//initialize manhattan_dist heuristic
+	for(int i=0; i<props.num_rows; i++)
+	{
+		for(int j=0; j<props.num_cols; j++)
+		{
+			maze[i][j].manhattan_dist = calc__manhattan_dist(&maze[i][j], props.goal);
+			if(DEBUG_INIT)
+			{
+				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].manhattan_dist << endl;
+			}
+		}
+	}
+}
+
+void set_manhattan_distances_3(cell** maze, maze_props props)
+{
+	//initialize manhattan_dist heuristic
+	for(int i=0; i<props.num_rows; i++)
+	{
+		for(int j=0; j<props.num_cols; j++)
+		{
+			int min_dist = INT_MAX;
+			cell* min_dist_cell;
+			//for every goal in props.goals
+			for(unsigned int k = 0; k < props.goals.size(); k++)
+			{
+				int test_dist = calc__manhattan_dist(&maze[i][j], props.goals.at(k));
+				if(test_dist<min_dist)
+				{
+					min_dist = test_dist;
+					min_dist_cell = &(maze[props.goals.at(k)->y][props.goals.at(k)->x]);
+				}
+			}
+			maze[i][j].manhattan_dist = min_dist;
+			maze[i][j].nearest_goal = min_dist_cell;
+			if(DEBUG_INIT)
+			{
+				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << min_dist_cell->y << "][" << min_dist_cell->x << "]: " << maze[i][j].manhattan_dist << endl;
+			}
+		}
+	}
+}
+
+
 void astar_3(cell** maze, maze_props props)
 {
 	vector<cell*> goals_list = props.goals;
@@ -603,51 +650,6 @@ void astar_3(cell** maze, maze_props props)
 		print_solution_astar_3(maze, props);
 		memory_cleanup(maze, props);
 }	
-
-void set_manhattan_distances(cell** maze, maze_props props)
-{
-		//initialize manhattan_dist heuristic
-	for(int i=0; i<props.num_rows; i++)
-	{
-		for(int j=0; j<props.num_cols; j++)
-		{
-			maze[i][j].manhattan_dist = calc__manhattan_dist(&maze[i][j], props.goal);
-			if(DEBUG_INIT)
-			{
-				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].manhattan_dist << endl;
-			}
-		}
-	}
-}
-
-void set_manhattan_distances_3(cell** maze, maze_props props)
-{
-	//initialize manhattan_dist heuristic
-	for(int i=0; i<props.num_rows; i++)
-	{
-		for(int j=0; j<props.num_cols; j++)
-		{
-			int min_dist = INT_MAX;
-			cell* min_dist_cell;
-			//for every goal in props.goals
-			for(unsigned int k = 0; k < props.goals.size(); k++)
-			{
-				int test_dist = calc__manhattan_dist(&maze[i][j], props.goals.at(k));
-				if(test_dist<min_dist)
-				{
-					min_dist = test_dist;
-					min_dist_cell = &(maze[props.goals.at(k)->y][props.goals.at(k)->x]);
-				}
-			}
-			maze[i][j].manhattan_dist = min_dist;
-			maze[i][j].nearest_goal = min_dist_cell;
-			if(DEBUG_INIT)
-			{
-				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << min_dist_cell->y << "][" << min_dist_cell->x << "]: " << maze[i][j].manhattan_dist << endl;
-			}
-		}
-	}
-}
 
 int main(int argc, char* argv[])
 {
