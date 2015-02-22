@@ -96,6 +96,27 @@ void print_solution_bfs(cell** maze, maze_props props, int offset) {
 		return;
 	}
 	
+	/*
+	//SNIPPET FROM PRINT_PROG
+	for(int i=0; i<props.num_rows; i++) {
+		for (int j=0; j<props.num_cols; j++) {
+			if(i==props.start->y && j==props.start->x)
+			{
+				cout << 'P';
+				continue;
+			}
+			if(i==props.goal->y && j==props.goal->x)
+			{
+				cout << 'G';
+				continue;
+			}
+
+			cout << ((maze[i][j].wall)? '%':(maze[i][j].visited? '.':' ' )) ;
+		}
+		cout << endl;
+	}
+	cout << "Nodes expanded: " << expansions << endl;*/
+	
 	cell* current_cell = props.goal;
 	
 	vector<cell*> path;
