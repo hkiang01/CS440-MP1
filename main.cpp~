@@ -146,17 +146,6 @@ void print_solution_dfs(cell** maze, maze_props props) {
 }
 
 
-
-void print_solution_astar_3(cell** maze, maze_props props)
-{
-	sort(props.goals.begin(), props.goals.end(), goalgreater);
-	cout << "Goal | coordinates" << endl;
-	for(unsigned int i = 0; i < props.goals.size(); i++)
-	{
-		cout << i+1 << "\t(" << props.goals.at(i)->x << ", " << props.goals.at(i)->y << ")" << endl;
-	}
-}
-
 void print_progress(maze_props props, cell** maze, int expansions)
 {
 	//Progress In Text
@@ -575,6 +564,16 @@ void set_manhattan_distances(cell** maze, maze_props props)
 
 ////MP13 A STAR 3 SEARCH//////
 
+void print_solution_astar_3(cell** maze, maze_props props)
+{
+	sort(props.goals.begin(), props.goals.end(), goalgreater);
+	cout << "Goal | coordinates" << endl;
+	for(unsigned int i = 0; i < props.goals.size(); i++)
+	{
+		cout << i+1 << "\t(" << props.goals.at(i)->x << ", " << props.goals.at(i)->y << ")" << endl;
+	}
+}
+
 void set_manhattan_distances_3(cell** maze, maze_props props, vector<cell*> goals_list)
 {
 	//initialize manhattan_dist heuristic
@@ -602,7 +601,7 @@ void set_manhattan_distances_3(cell** maze, maze_props props, vector<cell*> goal
 				maze[i][j].nearest_goal = min_dist_cell;
 				if(DEBUG_INIT)
 				{
-					cout << "Manhattan distance from [" << i << "][" << j << "] to [" << min_dist_cell->y << "][" << min_dist_cell->x << "]: " << maze[i][j].manhattan_dist << endl;
+					//cout << "Manhattan distance from [" << i << "][" << j << "] to [" << min_dist_cell->y << "][" << min_dist_cell->x << "]: " << maze[i][j].manhattan_dist << endl;
 				}
 			}
 			else
@@ -665,6 +664,8 @@ void astar_3(cell** maze, maze_props props)
 			{
 				goals_list.erase(goals_list.begin()+i);
 				current_cell->goal_order=goal_counter;
+				cout<<"Reached a goal, giving ("<<current_cell->x<<","
+					<<current_cell->y<<") goal #"<<goal_counter<<endl;
 				goal_counter++;
 				//i--;
 				
@@ -674,7 +675,6 @@ void astar_3(cell** maze, maze_props props)
 				queue<cell*> f;
 				unsigned int s = frontier.size();
 				for(unsigned int j=0; j<s; j++) {
-					cout<<endl;
 					cell* c = frontier.top();
 					frontier.pop();
 					cout << c->total_cost << "(" << c->x << "," << c->y << ");;; ";
@@ -684,6 +684,7 @@ void astar_3(cell** maze, maze_props props)
 					frontier.push(f.front());
 					f.pop();
 				}
+				cout<<endl;
 				//
 				break;
 			}
