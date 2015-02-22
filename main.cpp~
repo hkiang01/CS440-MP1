@@ -186,7 +186,7 @@ void print_progress(maze_props props, cell** maze, int expansions)
 	{
 		cout << endl;
 	} 
-	usleep(55000); //sleep 0.25 sec
+	usleep(550000); //sleep 0.25 sec
 }
 
 bool frontierCheckPush_bfs(queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
@@ -574,7 +574,7 @@ void print_solution_astar_3(cell** maze, maze_props props)
 	}
 }
 
-void set_manhattan_distances_3(cell** maze, maze_props props, vector<cell*> goals_list)
+void set_manhattan_distances_3(cell** maze, maze_props props, vector<cell*> goals_list, cell* current_cell)
 {
 	//initialize manhattan_dist heuristic
 	for(int i=0; i<props.num_rows; i++)
@@ -599,7 +599,9 @@ void set_manhattan_distances_3(cell** maze, maze_props props, vector<cell*> goal
 				}
 				maze[i][j].manhattan_dist = min_dist;
 				maze[i][j].nearest_goal = min_dist_cell;
-				maze[i][j].total_cost = maze[i][j].manhattan_dist+maze[i][j].step_cost;// + calc__manhattan_dist(candidate_cell, previous_cell);
+				if (current_cell != NULL)
+					maze[i][j].total_cost = maze[i][j].manhattan_dist + current_cell->step_cost + calc__manhattan_dist(current_cell, &(maze[i][j]));
+				
 				if(DEBUG_INIT)
 				{
 					//cout << "Manhattan distance from [" << i << "][" << j << "] to [" << min_dist_cell->y << "][" << min_dist_cell->x << "]: " << maze[i][j].manhattan_dist << endl;
@@ -623,12 +625,38 @@ bool frontierCheckPush_astar_3(priority_queue<cell*, vector<cell*>, NodeGreater 
 	if (!candidate_cell->wall) {
 		candidate_cell->previous = previous_cell;
 		candidate_cell->step_cost = candidate_cell->previous->step_cost+1;
-		candidate_cell->total_cost = candidate_cell->manhattan_dist+candidate_cell->step_cost;// + calc__manhattan_dist(candidate_cell, previous_cell);
+		//candidate_cell->total_cost = candidate_cell->manhattan_dist+candidate_cell->step_cost;// + calc__manhattan_dist(candidate_cell, previous_cell);
 		candidate_cell->visited = true;
-		frontier.push(candidate_cell);
+
+		
+	
+		//replace duplicate in frontier with new distance
+		stack<cell*> temp_stack;
+		cell* temp_cell;
+		temp_stack.push(candidate_cell);
+		
+		//Preemptively oblierate all duplicates
+		for(unsigned int i = 0; i < frontier.size(); ++i)
+		{
+			temp_cell = frontier.top();
+			frontier.pop();
+			
+			if(temp_cell!=candidate_cell)
+				temp_stack.push(temp_cell);	
+		}
+		
+		//push stack back onto frontier
+		while(temp_stack.size()>0) {
+			temp_cell = temp_stack.top();
+			frontier.push(temp_cell);
+			temp_stack.pop();
+		}
+
 		return true;
 	}
 	
+
+
 	return false;
 }
 
@@ -656,27 +684,22 @@ void astar_3(cell** maze, maze_props props)
 		}
 		
 		expansions++;
-
-		int cx = current_cell->x, cy = current_cell->y;
-		//a root node, push all children onto priority queue
-		frontierCheckPush_astar_3(frontier, maze, props, current_cell, cy,	cx+1) ;
-		frontierCheckPush_astar_3(frontier, maze, props, current_cell, cy+1,cx	) ;
-		frontierCheckPush_astar_3(frontier, maze, props, current_cell, cy,	cx-1) ;
-		frontierCheckPush_astar_3(frontier, maze, props, current_cell, cy-1,cx	) ;
-
+		
+		//Check if we reached one of the goals just now
 		for(unsigned int i=0; i<goals_list.size(); ++i) {
 			if(current_cell == goals_list.at(i))
 			{
+				//Premanently remove this goal node from being a "goal"
 				goals_list.erase(goals_list.begin()+i);
 				current_cell->goal_order=goal_counter;
-				cout<<"Reached a goal, giving ("<<current_cell->x<<","
+				cout<<"     Reached a goal, giving ("<<current_cell->x<<","
 					<<current_cell->y<<") goal #"<<goal_counter<<endl;
 				goal_counter++;
 				//i--;
 				
-				set_manhattan_distances_3(maze, props, goals_list);
-				//Update PriQueue
-				//
+				
+				//Update PriQueue by re-pushing everything?
+				//TODO: this may not be neccessary?
 				queue<cell*> f;
 				unsigned int s = frontier.size();
 				for(unsigned int j=0; j<s; j++) {
@@ -691,6 +714,7 @@ void astar_3(cell** maze, maze_props props)
 				}
 				cout<<endl;
 				//
+				
 				break;
 			}
 		}
@@ -698,11 +722,23 @@ void astar_3(cell** maze, maze_props props)
 			break;
 		}
 
-		//only expand node with lowest heuristic
+		//Update all total_costs since we've committed to a node just now, and going back would mean something else in astar3
+		//Recalculate all manhattan distances, now excluding this goal we just acomplished
+		set_manhattan_distances_3(maze, props, goals_list, current_cell);
+		
+		
+		// Push adjacent nodes onto frontier
+		int cx = current_cell->x, cy = current_cell->y;
+		frontierCheckPush_astar_3(frontier, maze, props, current_cell, cy,	cx+1) ;
+		frontierCheckPush_astar_3(frontier, maze, props, current_cell, cy+1,cx	) ;
+		frontierCheckPush_astar_3(frontier, maze, props, current_cell, cy,	cx-1) ;
+		frontierCheckPush_astar_3(frontier, maze, props, current_cell, cy-1,cx	) ;
+		
 		if(DEBUG) {
 			cout << "Current total cost: " << current_cell->total_cost << endl;
 			print_progress(props, maze, expansions);
 		}
+		
 	}
 		print_solution_astar_3(maze, props);
 		memory_cleanup(maze, props);
@@ -786,7 +822,7 @@ int main(int argc, char* argv[])
 			break;
 
 		case 'A' :
-			set_manhattan_distances_3(maze, props, props.goals);
+			set_manhattan_distances_3(maze, props, props.goals, NULL);
 			astar_3(maze, props);
 			break;
 
