@@ -661,16 +661,6 @@ int main(int argc, char* argv[])
 		cout << "The goal is at row: " << props.goal->x << " and col: " << props.goal->y << endl;
 	}
 	
-	
-	for(int i=0; i<num_rows; i++) {
-		for (int j=0; j<num_cols; j++) {
-			cout << ((maze[i][j].wall)? 'W':' ') ;
-		}
-		cout << endl;
-	}
-	
-	
-
 	//double test_dist = calc__manhattan_dist(props.start, props.goal);
 	//cout << "Manhattan distance from start to goal: " << test_dist << endl;
 }
