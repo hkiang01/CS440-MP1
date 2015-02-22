@@ -39,7 +39,7 @@ struct NodeGreater
     bool operator() ( const cell* lhs, const cell* rhs ) const
     {
     	if (lhs->total_cost == rhs->total_cost) 
-    		return lhs->manhattan_dist < rhs->manhattan_dist;
+    		return lhs->manhattan_dist > rhs->manhattan_dist;
         return lhs->total_cost > rhs->total_cost;
     }
 };
@@ -144,12 +144,22 @@ void print_progress(maze_props props, cell** maze, int expansions)
 				cout << 'P';
 				continue;
 			}
-			if(i==props.goal->y && j==props.goal->x)
-			{
-				cout << 'G';
-				continue;
+			
+			bool continue_flag = false;
+			for(unsigned int k=0; k<props.goals.size(); k++) {
+				if(i==props.goals.at(k)->y && j==props.goals.at(k)->x)
+				{
+					if (maze[i][j].visited)
+						cout << '*';
+					else
+						cout << 'G';
+					continue_flag=true;
+					break;
+				}
 			}
-
+			if (continue_flag)
+				continue;
+				
 			cout << ((maze[i][j].wall)? '%':(maze[i][j].visited? '.':' ' )) ;
 		}
 		cout << endl;
@@ -520,6 +530,8 @@ void astar(cell** maze, maze_props props)
 
 void astar_3(cell** maze, maze_props props)
 {
+	vector<cell*> goals_list = props.goals;
+	
 	cell* current_cell;
 	priority_queue <cell*, vector<cell*>, NodeGreater > frontier;
 	frontier.push(props.start);
@@ -542,8 +554,14 @@ void astar_3(cell** maze, maze_props props)
 		frontierCheckPush_astar(frontier, maze, props, current_cell, cy,	cx-1) ;
 		frontierCheckPush_astar(frontier, maze, props, current_cell, cy-1,cx	) ;
 
-		if(current_cell == props.goal)
-		{
+		for(unsigned int i=0; i<goals_list.size(); ++i) {
+			if(current_cell == goals_list.at(i))
+			{
+				goals_list.erase(goals_list.begin()+i);
+				i--;
+			}
+		}
+		if (goals_list.size()==0) {
 			break;
 		}
 
