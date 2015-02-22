@@ -587,6 +587,7 @@ void astar_3(cell** maze, maze_props props)
 				current_cell->goal_order=goal_counter;
 				goal_counter++;
 				i--;
+				set_manhattan_distances_3(maze, props);
 			}
 		}
 		if (goals_list.size()==0) {
