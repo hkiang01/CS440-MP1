@@ -38,6 +38,8 @@ struct NodeGreater
 {
     bool operator() ( const cell* lhs, const cell* rhs ) const
     {
+    	if (lhs->total_cost == rhs->total_cost) 
+    		return lhs->manhattan_dist > rhs->manhattan_dist;
         return lhs->total_cost > rhs->total_cost;
     }
 };
@@ -433,7 +435,7 @@ void greedy(cell** maze, maze_props props)
 		if(DEBUG) {
 			cout << "Current total cost: " << current_cell->total_cost << endl;
 			
-			//
+			/*
 			queue<cell*> f;
 			unsigned int s = frontier.size();
 			for(unsigned int i=0; i<s; i++) {
@@ -447,7 +449,7 @@ void greedy(cell** maze, maze_props props)
 				f.pop();
 			}
 			cout << endl;
-			//
+			*/
 			
 			print_progress(props, maze, expansions);
 		}
@@ -490,6 +492,23 @@ void astar(cell** maze, maze_props props)
 		//only expand node with lowest heuristic
 		if(DEBUG) {
 			cout << "Current total cost: " << current_cell->total_cost << endl;
+			
+			//
+			queue<cell*> f;
+			unsigned int s = frontier.size();
+			for(unsigned int i=0; i<s; i++) {
+				cell* c = frontier.top();
+				frontier.pop();
+				cout << c->total_cost << "(" << c->x << "," << c->y << ");;; ";
+				f.push(c);
+			}
+			for(unsigned int i=0; i<s; i++) {
+				frontier.push(f.front());
+				f.pop();
+			}
+			cout << endl;
+			//
+			
 			print_progress(props, maze, expansions);
 		}
 	}

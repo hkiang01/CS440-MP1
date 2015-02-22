@@ -7,6 +7,7 @@
 #include <vector>
 #include <math.h>
 #include <cmath>
+#include <climits>
 //referenced: cplusplus.com for use of libraries for...
 //fstream, iostream, sleep in unistd.h, stack, queue, priority queue, math
 
@@ -26,6 +27,7 @@ struct cell{
 		int y;
 	
 		int manhattan_dist;
+		cell* nearest_goal;
 		int step_cost;
 		int total_cost;
 
@@ -36,6 +38,8 @@ struct NodeGreater
 {
     bool operator() ( const cell* lhs, const cell* rhs ) const
     {
+    	if (lhs->total_cost == rhs->total_cost) 
+    		return lhs->manhattan_dist > rhs->manhattan_dist;
         return lhs->total_cost > rhs->total_cost;
     }
 };
@@ -43,15 +47,13 @@ struct NodeGreater
 
 struct maze_props{
 
-	int init_row;
-	int init_col;
-	int goal_row;
-	int goal_col;
 	int num_rows;
 	int num_cols;
 	//
 	cell* start;
 	cell* goal;
+
+	vector<cell*> goals;
 };
 
 struct node{
@@ -65,18 +67,6 @@ struct node{
 	node* childC;
 	node* childD;
 };
-
-/*
-int calc_path_cost(node* curr_node, maze_props &props, int curr_cost)
-{
-	if(curr_node->row == props.goal_row && curr_node->col == props.goal_col)
-	{
-		return curr_cost;
-	}
-
-
-}
-*/
 
 void memory_cleanup(cell** maze, maze_props props)
 {
@@ -95,6 +85,27 @@ void print_solution_bfs(cell** maze, maze_props props, int offset) {
 		cout << "Could not find path from starting point to finish point!" << endl;
 		return;
 	}
+	
+	/*
+	//SNIPPET FROM PRINT_PROG
+	for(int i=0; i<props.num_rows; i++) {
+		for (int j=0; j<props.num_cols; j++) {
+			if(i==props.start->y && j==props.start->x)
+			{
+				cout << 'P';
+				continue;
+			}
+			if(i==props.goal->y && j==props.goal->x)
+			{
+				cout << 'G';
+				continue;
+			}
+
+			cout << ((maze[i][j].wall)? '%':(maze[i][j].visited? '.':' ' )) ;
+		}
+		cout << endl;
+	}
+	cout << "Nodes expanded: " << expansions << endl;*/
 	
 	cell* current_cell = props.goal;
 	
@@ -280,19 +291,14 @@ void process_line(cell** maze, string curr_line, int curr_height, maze_props &pr
 			maze[curr_height][curr_col].wall = false;
 			
 			props.start = &(maze[curr_height][curr_col]);
-			//
-			props.init_row = curr_height;
-			props.init_col = curr_col;
+
 		}
 		else if(test == '.')
 		{
 			//goal
 			maze[curr_height][curr_col].wall = false;
-			
 			props.goal = &(maze[curr_height][curr_col]);
-			//
-			//props.goal_row = curr_height;
-			//props.goal_col = curr_col;
+			props.goals.push_back(&maze[curr_height][curr_col]);
 		}
 		else
 		{
@@ -486,6 +492,23 @@ void astar(cell** maze, maze_props props)
 		//only expand node with lowest heuristic
 		if(DEBUG) {
 			cout << "Current total cost: " << current_cell->total_cost << endl;
+			
+			//
+			queue<cell*> f;
+			unsigned int s = frontier.size();
+			for(unsigned int i=0; i<s; i++) {
+				cell* c = frontier.top();
+				frontier.pop();
+				cout << c->total_cost << "(" << c->x << "," << c->y << ");;; ";
+				f.push(c);
+			}
+			for(unsigned int i=0; i<s; i++) {
+				frontier.push(f.front());
+				f.pop();
+			}
+			cout << endl;
+			//
+			
 			print_progress(props, maze, expansions);
 		}
 	}
@@ -493,6 +516,89 @@ void astar(cell** maze, maze_props props)
 		memory_cleanup(maze, props);
 }		
 
+void astar_3(cell** maze, maze_props props)
+{
+	cell* current_cell;
+	priority_queue <cell*, vector<cell*>, NodeGreater > frontier;
+	frontier.push(props.start);
+
+	int expansions = 0;
+
+	while(!frontier.empty())
+	{
+		//current_cell is the cell with the lowest heuristic
+		//see overloaded operator in struct Comp (below struct cell)
+		current_cell = frontier.top();
+		current_cell->visited = true;
+		frontier.pop();
+		expansions++;
+
+		int cx = current_cell->x, cy = current_cell->y;
+		//a root node, push all children onto priority queue
+		frontierCheckPush_astar(frontier, maze, props, current_cell, cy,	cx+1) ;
+		frontierCheckPush_astar(frontier, maze, props, current_cell, cy+1,cx	) ;
+		frontierCheckPush_astar(frontier, maze, props, current_cell, cy,	cx-1) ;
+		frontierCheckPush_astar(frontier, maze, props, current_cell, cy-1,cx	) ;
+
+		if(current_cell == props.goal)
+		{
+			break;
+		}
+
+		//only expand node with lowest heuristic
+		if(DEBUG) {
+			cout << "Current total cost: " << current_cell->total_cost << endl;
+			print_progress(props, maze, expansions);
+		}
+	}
+		print_solution_bfs(maze, props, 0);
+		memory_cleanup(maze, props);
+}	
+
+void set_manhattan_distances(cell** maze, maze_props props)
+{
+		//initialize manhattan_dist heuristic
+	for(int i=0; i<props.num_rows; i++)
+	{
+		for(int j=0; j<props.num_cols; j++)
+		{
+			maze[i][j].manhattan_dist = calc__manhattan_dist(&maze[i][j], props.goal);
+			if(DEBUG_INIT)
+			{
+				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].manhattan_dist << endl;
+			}
+		}
+	}
+}
+
+void set_manhattan_distances_3(cell** maze, maze_props props)
+{
+	//initialize manhattan_dist heuristic
+	for(int i=0; i<props.num_rows; i++)
+	{
+		for(int j=0; j<props.num_cols; j++)
+		{
+			int min_dist = INT_MAX;
+			cell* min_dist_cell;
+			//for every goal in props.goals
+			for(unsigned int k = 0; k < props.goals.size(); k++)
+			{
+				int test_dist = calc__manhattan_dist(&maze[i][j], props.goals.at(k));
+				if(test_dist<min_dist)
+				{
+					min_dist = test_dist;
+					min_dist_cell = &(maze[props.goals.at(k)->y][props.goals.at(k)->x]);
+				}
+			}
+			maze[i][j].manhattan_dist = min_dist;
+			maze[i][j].nearest_goal = min_dist_cell;
+			if(DEBUG_INIT)
+			{
+				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << min_dist_cell->y << "][" << min_dist_cell->x << "]: " << maze[i][j].manhattan_dist << endl;
+			}
+		}
+	}
+}
 
 int main(int argc, char* argv[])
 {
@@ -510,17 +616,10 @@ int main(int argc, char* argv[])
 
 	
 	ifstream myfile (m_size.c_str());
-	//cout << "Unable to open file." << endl;
-	//std::ofstream outfile ("output_small.txt");
 
 	cell** maze;
 	maze_props props;
-	//props.init_row = -1;
-	//props.init_col = -1;
-	//props.goal_row = -1;
-	//props.goal_col = -1;
-	//node* root = NULL;
-	
+
 	if(myfile.is_open())
 	{
 		string curr_line;
@@ -544,17 +643,36 @@ int main(int argc, char* argv[])
 	props.num_rows = num_rows;
 	props.num_cols = num_cols;
 
-	//initialize manhattan_dist heuristic
-	for(int i=0; i<num_rows; i++)
-	{
-		for(int j=0; j<num_cols; j++)
-		{
-			maze[i][j].manhattan_dist = calc__manhattan_dist(&maze[i][j], props.goal);
-			if(DEBUG_INIT)
-			{
-				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].manhattan_dist << endl;
-			}
-		}
+
+	switch (mode) {
+	
+		case 'b' :
+			set_manhattan_distances(maze, props);
+			bfs(maze, props);
+			break;
+
+		case 'd' :
+			set_manhattan_distances(maze, props);
+			dfs(maze, props);
+			break;
+			
+		case 'g' :
+			set_manhattan_distances(maze, props);
+			greedy(maze, props);
+			break;
+			
+		case 'a' :
+			set_manhattan_distances(maze, props);
+			astar(maze, props);
+			break;
+
+		case 'A' :
+			set_manhattan_distances_3(maze, props);
+			astar_3(maze, props);
+			break;
+
+		default:
+			cout<<"usuck"<<endl;
 	}
 
 	if(DEBUG_INIT) {
@@ -562,36 +680,6 @@ int main(int argc, char* argv[])
 		cout << "The goal is at row: " << props.goal->x << " and col: " << props.goal->y << endl;
 	}
 	
-	
-	for(int i=0; i<num_rows; i++) {
-		for (int j=0; j<num_cols; j++) {
-			cout << ((maze[i][j].wall)? 'W':' ') ;
-		}
-		cout << endl;
-	}
-	
-	
-	switch (mode) {
-	
-		case 'b' :
-			bfs(maze, props);
-			break;
-
-		case 'd' :
-			dfs(maze, props);
-			break;
-			
-		case 'g' :
-			greedy(maze, props);
-			break;
-			
-		case 'a' :
-			astar(maze, props);
-			break;
-
-		default:
-			cout<<"usuck"<<endl;
-	}
 	//double test_dist = calc__manhattan_dist(props.start, props.goal);
 	//cout << "Manhattan distance from start to goal: " << test_dist << endl;
 }
