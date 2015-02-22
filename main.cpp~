@@ -38,8 +38,8 @@ struct NodeGreater
 {
     bool operator() ( const cell* lhs, const cell* rhs ) const
     {
-    	//if (lhs->total_cost == rhs->total_cost) 
-    	//	return lhs->manhattan_dist < rhs->manhattan_dist;
+    	if (lhs->total_cost == rhs->total_cost) 
+    		return lhs->manhattan_dist < rhs->manhattan_dist;
         return lhs->total_cost > rhs->total_cost;
     }
 };
@@ -112,7 +112,7 @@ void print_solution_bfs(cell** maze, maze_props props, int offset) {
 	vector<cell*> path;
 	int path_length = 0;
 	
-	while(current_cell != NULL) {
+	while(current_cell != NULL && current_cell!=props.start) {
 		if (DEBUG)
 			cout << current_cell->x << "," << current_cell->y << "    ";
 		usleep(1500);

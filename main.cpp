@@ -38,8 +38,8 @@ struct NodeGreater
 {
     bool operator() ( const cell* lhs, const cell* rhs ) const
     {
-    	//if (lhs->total_cost == rhs->total_cost) 
-    	//	return lhs->manhattan_dist < rhs->manhattan_dist;
+    	if (lhs->total_cost == rhs->total_cost) 
+    		return lhs->manhattan_dist > rhs->manhattan_dist;
         return lhs->total_cost > rhs->total_cost;
     }
 };
