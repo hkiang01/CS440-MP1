@@ -554,7 +554,7 @@ void set_manhattan_distances_3(cell** maze, maze_props props)
 			maze[i][j].nearest_goal = min_dist_cell;
 			if(DEBUG_INIT)
 			{
-				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].manhattan_dist << endl;
+				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << min_dist_cell->y << "][" << min_dist_cell->x << "]: " << maze[i][j].manhattan_dist << endl;
 			}
 		}
 	}
