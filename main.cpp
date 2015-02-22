@@ -580,11 +580,14 @@ void set_manhattan_distances_3(cell** maze, maze_props props, vector<cell*> goal
 			int min_dist = INT_MAX;
 			cell* min_dist_cell;
 			//for every goal in props.goals
+			//TODO: What is the closest goal that is not visited?
 			if (goals_list.size()>0) {
 				for(unsigned int k = 0; k < goals_list.size(); k++)
 				{
 					int test_dist = calc__manhattan_dist(&maze[i][j], goals_list.at(k));
-					if(test_dist<min_dist && test_dist>0)
+					if (test_dist==0)
+						continue;
+					if(test_dist<min_dist)
 					{
 						min_dist = test_dist;
 						min_dist_cell = &(maze[goals_list.at(k)->y][goals_list.at(k)->x]);
@@ -637,8 +640,26 @@ void astar_3(cell** maze, maze_props props)
 				goals_list.erase(goals_list.begin()+i);
 				current_cell->goal_order=goal_counter;
 				goal_counter++;
-				i--;
+				//i--;
+				
 				set_manhattan_distances_3(maze, props, goals_list);
+				//Update PriQueue
+				//
+				queue<cell*> f;
+				unsigned int s = frontier.size();
+				for(unsigned int j=0; j<s; j++) {
+					cout<<endl;
+					cell* c = frontier.top();
+					frontier.pop();
+					cout << c->total_cost << "(" << c->x << "," << c->y << ");;; ";
+					f.push(c);
+				}
+				for(unsigned int j=0; j<s; j++) {
+					frontier.push(f.front());
+					f.pop();
+				}
+				//
+				break;
 			}
 		}
 		if (goals_list.size()==0) {
