@@ -43,15 +43,13 @@ struct NodeGreater
 
 struct maze_props{
 
-	int init_row;
-	int init_col;
-	int goal_row;
-	int goal_col;
 	int num_rows;
 	int num_cols;
 	//
 	cell* start;
 	cell* goal;
+
+	queue<cell*> goals;
 };
 
 struct node{
@@ -65,18 +63,6 @@ struct node{
 	node* childC;
 	node* childD;
 };
-
-/*
-int calc_path_cost(node* curr_node, maze_props &props, int curr_cost)
-{
-	if(curr_node->row == props.goal_row && curr_node->col == props.goal_col)
-	{
-		return curr_cost;
-	}
-
-
-}
-*/
 
 void memory_cleanup(cell** maze, maze_props props)
 {
@@ -280,19 +266,14 @@ void process_line(cell** maze, string curr_line, int curr_height, maze_props &pr
 			maze[curr_height][curr_col].wall = false;
 			
 			props.start = &(maze[curr_height][curr_col]);
-			//
-			props.init_row = curr_height;
-			props.init_col = curr_col;
+
 		}
 		else if(test == '.')
 		{
 			//goal
 			maze[curr_height][curr_col].wall = false;
-			
 			props.goal = &(maze[curr_height][curr_col]);
-			//
-			//props.goal_row = curr_height;
-			//props.goal_col = curr_col;
+			props.goals.push(&maze[curr_height][curr_col]);
 		}
 		else
 		{
@@ -494,6 +475,22 @@ void astar(cell** maze, maze_props props)
 }		
 
 
+void set_manhattan_distances(cell** maze, maze_props props)
+{
+		//initialize manhattan_dist heuristic
+	for(int i=0; i<props.num_rows; i++)
+	{
+		for(int j=0; j<props.num_cols; j++)
+		{
+			maze[i][j].manhattan_dist = calc__manhattan_dist(&maze[i][j], props.goal);
+			if(DEBUG_INIT)
+			{
+				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].manhattan_dist << endl;
+			}
+		}
+	}
+}
+
 int main(int argc, char* argv[])
 {
 
@@ -510,17 +507,10 @@ int main(int argc, char* argv[])
 
 	
 	ifstream myfile (m_size.c_str());
-	//cout << "Unable to open file." << endl;
-	//std::ofstream outfile ("output_small.txt");
 
 	cell** maze;
 	maze_props props;
-	//props.init_row = -1;
-	//props.init_col = -1;
-	//props.goal_row = -1;
-	//props.goal_col = -1;
-	//node* root = NULL;
-	
+
 	if(myfile.is_open())
 	{
 		string curr_line;
@@ -544,17 +534,31 @@ int main(int argc, char* argv[])
 	props.num_rows = num_rows;
 	props.num_cols = num_cols;
 
-	//initialize manhattan_dist heuristic
-	for(int i=0; i<num_rows; i++)
-	{
-		for(int j=0; j<num_cols; j++)
-		{
-			maze[i][j].manhattan_dist = calc__manhattan_dist(&maze[i][j], props.goal);
-			if(DEBUG_INIT)
-			{
-				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].manhattan_dist << endl;
-			}
-		}
+
+	switch (mode) {
+	
+		case 'b' :
+			set_manhattan_distances(maze, props);
+			bfs(maze, props);
+			break;
+
+		case 'd' :
+			set_manhattan_distances(maze, props);
+			dfs(maze, props);
+			break;
+			
+		case 'g' :
+			set_manhattan_distances(maze, props);
+			greedy(maze, props);
+			break;
+			
+		case 'a' :
+			set_manhattan_distances(maze, props);
+			astar(maze, props);
+			break;
+
+		default:
+			cout<<"usuck"<<endl;
 	}
 
 	if(DEBUG_INIT) {
@@ -571,27 +575,7 @@ int main(int argc, char* argv[])
 	}
 	
 	
-	switch (mode) {
-	
-		case 'b' :
-			bfs(maze, props);
-			break;
 
-		case 'd' :
-			dfs(maze, props);
-			break;
-			
-		case 'g' :
-			greedy(maze, props);
-			break;
-			
-		case 'a' :
-			astar(maze, props);
-			break;
-
-		default:
-			cout<<"usuck"<<endl;
-	}
 	//double test_dist = calc__manhattan_dist(props.start, props.goal);
 	//cout << "Manhattan distance from start to goal: " << test_dist << endl;
 }
