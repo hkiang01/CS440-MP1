@@ -553,17 +553,24 @@ void astar(cell** maze, maze_props props)
 		memory_cleanup(maze, props);
 }		
 
-void astar_3(cell** maze, maze_props props)
+
+//referenced: http://www.laurentluce.com/posts/solving-mazes-using-python-simple-recursivity-and-a-search/
+//referenced: https://en.wikipedia.org/wiki/A*_search_algorithm
+bool astar_3(cell** maze, maze_props props)
 {
 	vector<cell*> goals_list = props.goals;
+	priority_queue<cell*, vector<cell*>, NodeGreater> open_list;
+	priority_queue<cell*, vector<cell*>, NodeGreater> closed_list;
 	
-	cell* current_cell;
-	priority_queue <cell*, vector<cell*>, NodeGreater > frontier;
-	frontier.push(props.start);
+	//cell* current_cell;
+	//priority_queue <cell*, vector<cell*>, NodeGreater > frontier;
+	//frontier.push(props.start);
+	//open_list.push(props.start);
 
-	int expansions = 0;
-	int goal_counter = 0;
+	//int expansions = 0;
+	//int goal_counter = 0;
 
+	/*
 	while(!frontier.empty())
 	{
 		//current_cell is the cell with the lowest heuristic
@@ -575,10 +582,10 @@ void astar_3(cell** maze, maze_props props)
 
 		int cx = current_cell->x, cy = current_cell->y;
 		//a root node, push all children onto priority queue
-		frontierCheckPush_astar(frontier, maze, props, current_cell, cy,	cx+1) ;
-		frontierCheckPush_astar(frontier, maze, props, current_cell, cy+1,cx	) ;
-		frontierCheckPush_astar(frontier, maze, props, current_cell, cy,	cx-1) ;
-		frontierCheckPush_astar(frontier, maze, props, current_cell, cy-1,cx	) ;
+		//frontierCheckPush_astar(frontier, maze, props, current_cell, cy,	cx+1) ;
+		//frontierCheckPush_astar(frontier, maze, props, current_cell, cy+1,cx	) ;
+		//frontierCheckPush_astar(frontier, maze, props, current_cell, cy,	cx-1) ;
+		//frontierCheckPush_astar(frontier, maze, props, current_cell, cy-1,cx	) ;
 
 		for(unsigned int i=0; i<goals_list.size(); ++i) {
 			if(current_cell == goals_list.at(i))
@@ -599,9 +606,64 @@ void astar_3(cell** maze, maze_props props)
 			print_progress(props, maze, expansions);
 		}
 	}
+	*/
 		print_solution_astar_3(maze, props);
 		memory_cleanup(maze, props);
-}	
+		return false;
+}
+
+//called recursively
+bool astar_3_helper(cell** maze, maze_props props, int x, int y, vector<cell*> &goals_list, int &goal_counter)
+{
+	//bounds check
+	if(x<0 || x>props.num_cols-1 || y<0 || y>props.num_rows-1)
+	{
+		return false;
+	}
+
+	cell* candidate_cell = &(maze[y][x]);
+	//check for a goal, erase it from goals_list
+	for(unsigned int i=0; i<goals_list.size(); i++) {
+		if(candidate_cell == goals_list.at(i))
+		{
+			goals_list.erase(goals_list.begin()+i);
+			candidate_cell->goal_order=goal_counter;
+			goal_counter++;
+			i--;
+			cout << "Goal found at: (" << candidate_cell->x << ", " << candidate_cell->y << ")" << endl;
+			return true;
+		}
+	}
+
+	//check for wall
+	if(candidate_cell->wall==true)
+	{
+		cout << "Visited at: (" << candidate_cell->x << ", " << candidate_cell->y << ")" << endl;
+		return false;
+	}
+
+	//check if visited
+	if(candidate_cell->visited==true)
+	{
+		cout << "Wall at: (" << candidate_cell->x << ", " << candidate_cell->y << ")" << endl;
+		return false;
+	}
+
+	//mark as visited
+	candidate_cell->visited=true;
+	cout << "Visiting (" << candidate_cell->x << ", " << candidate_cell->y << ")" << endl;
+
+	//explore neighbors recursively
+	if((candidate_cell->x < props.num_cols-1 && astar_3_helper(maze, props, x+1, y, goals_list, goal_counter)) //right neighbor
+	|| 	(candidate_cell->y > 0 && astar_3_helper(maze, props, x, y-1, goals_list, goal_counter)) //down neighbor
+	|| 	(candidate_cell->x > 0 && astar_3_helper(maze, props, x-1, y, goals_list, goal_counter)) //down neighbor
+	|| 	(candidate_cell->y < props.num_rows-1 && astar_3_helper(maze, props, x, y+1, goals_list, goal_counter))) //down neighbor
+	{
+		return true;
+	}
+	return false;
+}
+
 
 void set_manhattan_distances(cell** maze, maze_props props)
 {
