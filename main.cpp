@@ -644,12 +644,33 @@ bool astar_3(cell** maze, maze_props props)
 				temp_stack.pop();
 			}
 
+			//DOUBLE CHECK THIS
 			//if the adjacent cell is reachable and not in the closed list
 			if(adjacent_cells.at(i)->wall==false && !in_closed && in_open)
 			{
+				bool shortest_path = false;
+
 				//check to see if the current path is better than the one previously found for adjacent_candidate
-				
+				if(shortest_path)
+				{
+					adjacent_cells.at(i)
+				}	
 			}
+			//code to translate
+
+			// 21
+			//                     if adj_cell.g > cell.g + 10:
+			// 22
+			//                         self.update_cell(adj_cell, cell)
+			// 23
+			//                 else:
+			// 24
+			//                     self.update_cell(adj_cell, cell)
+			// 25
+			//                     # add adj cell to open list
+			// 26
+			//                     heapq.heappush(self.opened, (adj_cell.f, adj_cell))
+			//DOUBLE CHECK THIS
 		}
 
 	}
