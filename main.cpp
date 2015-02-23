@@ -560,7 +560,99 @@ bool astar_3(cell** maze, maze_props props)
 {
 	vector<cell*> goals_list = props.goals;
 	priority_queue<cell*, vector<cell*>, NodeGreater> open_list;
-	priority_queue<cell*, vector<cell*>, NodeGreater> closed_list;
+	//priority_queue<cell*, vector<cell*>, NodeGreater> closed_list;
+	vector<cell*> closed_list;
+	vector<cell*> adjacent_cells;
+
+	int num_expansions = 0;
+	int goal_counter = 0;
+
+	//push start node on open list
+	open_list.push(props.start);
+	cell* curr_cell;
+	while(!open_list.empty())
+	{
+		//pop cell from open list
+		curr_cell = open_list.top();
+		open_list.pop();
+		num_expansions++;
+		//add cell to closed list to prevent from processing it twice
+		closed_list.push_back(curr_cell);
+
+		//check for a goal, erase it from goals_list
+		for(unsigned int i=0; i<goals_list.size(); i++) {
+			if(curr_cell == goals_list.at(i))
+			{
+				goals_list.erase(goals_list.begin()+i);
+				curr_cell->goal_order=goal_counter;
+				goal_counter++;
+				i--;
+				cout << "Goal found at: (" << curr_cell->x << ", " << curr_cell->y << ")" << endl;
+				break;
+			}
+		}
+
+		//get adjacent cells and push them on to adjacent_cells
+		int cx = curr_cell->x;
+		int cy = curr_cell->y;
+		if(cx < props.num_cols-1)
+			adjacent_cells.push_back(&maze[cy][cx+1]);
+		if(cy > 0)
+			adjacent_cells.push_back(&maze[cy-1][cx]);
+		if(cx > 0)
+			adjacent_cells.push_back(&maze[cy][cx-1]);
+		if(cy < props.num_rows-1)
+			adjacent_cells.push_back(&maze[cy+1][cx]);
+
+		//for every adjacent cell,
+		for(unsigned int i = 0; i < adjacent_cells.size(); i++)
+		{
+			cell* adjacent_candidate= adjacent_cells.at(i);
+			bool in_closed = false;
+			bool in_open = false;
+			
+			//check to see if it's in the closed list
+			for( unsigned int j = 0; j < closed_list.size(); j++)
+			{
+				if(adjacent_candidate->x==closed_list.at(j)->x && adjacent_candidate->y==closed_list.at(j)->y)
+				{
+					in_closed = true;
+					break;
+				}
+			}
+
+			//check to see if it's in the open list
+			cell* temp_cell;
+			stack<cell*> temp_stack;
+			for(unsigned int j = 0; j < open_list.size(); j++)
+			{
+				temp_cell = open_list.top();
+				open_list.pop();
+				
+				if(temp_cell!=adjacent_candidate)
+					temp_stack.push(temp_cell);	
+				else
+				{
+					in_open=true;
+					break;
+				}
+			}
+			//push stack back onto frontier
+			while(!temp_stack.empty()) {
+				temp_cell = temp_stack.top();
+				open_list.push(temp_cell);
+				temp_stack.pop();
+			}
+
+			//if the adjacent cell is reachable and not in the closed list
+			if(adjacent_cells.at(i)->wall==false && !in_closed && in_open)
+			{
+				//check to see if the current path is better than the one previously found for adjacent_candidate
+				
+			}
+		}
+
+	}
 	
 	//cell* current_cell;
 	//priority_queue <cell*, vector<cell*>, NodeGreater > frontier;
