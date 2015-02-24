@@ -14,8 +14,8 @@
 
 using namespace std;
 
-#define DEBUG true
-#define DEBUG_INIT true
+#define DEBUG false
+#define DEBUG_INIT false
 
 struct cell{
 	
@@ -89,6 +89,16 @@ void memory_cleanup(cell** maze, maze_props props)
 	return;
 }
 
+bool isSolPath(cell* curCell, maze_props props) {
+	cell* c = props.goal;
+	while(c->previous != NULL) {
+		if (curCell == c)
+			return true;
+		c = c->previous;
+	}
+	return false;
+}
+
 void print_solution_bfs(cell** maze, maze_props props, int offset) {
 	cout << "Solution: " << endl;
 	
@@ -126,7 +136,6 @@ void print_solution_bfs(cell** maze, maze_props props, int offset) {
 	while(current_cell != NULL && current_cell!=props.start) {
 		if (DEBUG)
 			cout << current_cell->x << "," << current_cell->y << "    ";
-		usleep(1500);
 		path.push_back(current_cell);
 		++path_length;
 		current_cell = current_cell->previous;
@@ -137,6 +146,38 @@ void print_solution_bfs(cell** maze, maze_props props, int offset) {
 		cout << "(" << path[i]->x << "," << path[i]->y << ") -> " ;
 	}
 	cout << endl;
+	
+	//PRINT SOLUTION IN MAZEEEEEEEE
+	//Progress In Text
+	for(int i=0; i<props.num_rows; i++) {
+		for (int j=0; j<props.num_cols; j++) {
+			if(i==props.start->y && j==props.start->x)
+			{
+				cout << 'P';
+				continue;
+			}
+			
+			bool continue_flag = false;
+			for(unsigned int k=0; k<props.goals.size(); k++) {
+				if(i==props.goals.at(k)->y && j==props.goals.at(k)->x)
+				{
+					if (maze[i][j].visited)
+					{
+						cout << '*';
+					}
+					else
+						cout << 'G';
+					continue_flag=true;
+					break;
+				}
+			}
+			if (continue_flag)
+				continue;
+				
+			cout << ((maze[i][j].wall)? '%':(maze[i][j].visited? (isSolPath(&(maze[i][j]),props)?'+':'.'):' ' )) ;
+		}
+		cout << endl;
+	}
 }
 
 void print_solution_dfs(cell** maze, maze_props props) {
@@ -186,7 +227,7 @@ void print_progress(maze_props props, cell** maze, int expansions)
 	{
 		cout << endl;
 	} 
-	usleep(550000); //sleep 0.25 sec
+	usleep(55000); //sleep 0.25 sec
 }
 
 bool frontierCheckPush_bfs(queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
