@@ -348,6 +348,52 @@ void process_line(cell** maze, string curr_line, int curr_height, maze_props &pr
 
 }
 
+
+void set_manhattan_distances(cell** maze, maze_props props)
+{
+		//initialize manhattan_dist heuristic
+	for(int i=0; i<props.num_rows; i++)
+	{
+		for(int j=0; j<props.num_cols; j++)
+		{
+			maze[i][j].manhattan_dist = calc__manhattan_dist(&maze[i][j], props.goal);
+			if(DEBUG_INIT)
+			{
+				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].manhattan_dist << endl;
+			}
+		}
+	}
+}
+
+void set_manhattan_distances_3(cell** maze, maze_props props, vector<cell*> goals_list)
+{
+	//initialize manhattan_dist heuristic
+	for(int i=0; i<props.num_rows; i++)
+	{
+		for(int j=0; j<props.num_cols; j++)
+		{
+			int min_dist = INT_MAX;
+			cell* min_dist_cell;
+			//for every goal in props.goals
+			for(unsigned int k = 0; k < goals_list.size(); k++)
+			{
+				int test_dist = calc__manhattan_dist(&maze[i][j], goals_list.at(k));
+				if(test_dist<min_dist)
+				{
+					min_dist = test_dist;
+					min_dist_cell = &(maze[goals_list.at(k)->y][goals_list.at(k)->x]);
+				}
+			}
+			maze[i][j].manhattan_dist = min_dist;
+			maze[i][j].nearest_goal = min_dist_cell;
+			if(DEBUG_INIT)
+			{
+				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << min_dist_cell->y << "][" << min_dist_cell->x << "]: " << min_dist/*maze[i][j].manhattan_dist*/ << endl;
+			}
+		}
+	}
+}
+
 //reference: https://en.wikipedia.org/wiki/Breadth-first_search
 void bfs(cell** maze, maze_props props) {
 
@@ -588,6 +634,9 @@ bool astar_3(cell** maze, maze_props props)
 				goal_counter++;
 				i--;
 				cout << "Goal found at: (" << curr_cell->x << ", " << curr_cell->y << ")" << endl;
+
+				//recalculate heuristic for each cell
+				set_manhattan_distances_3(maze, props, goals_list);
 				break;
 			}
 		}
@@ -643,34 +692,48 @@ bool astar_3(cell** maze, maze_props props)
 				open_list.push(temp_cell);
 				temp_stack.pop();
 			}
+			//check to see if it's in the open list
 
 			//DOUBLE CHECK THIS
 			//if the adjacent cell is reachable and not in the closed list
-			if(adjacent_cells.at(i)->wall==false && !in_closed && in_open)
+			if(adjacent_candidate->wall==false && !in_closed)
 			{
-				bool shortest_path = false;
+				if(in_open)
+				{		
+					// Regarding “if c.g > cell.g + 10″,
+					// we are checking if the path going through the current cell is better than what was previously calculated
+					// for the adjacent cell. +10 means current path beats adjacent cell path + one move.
+					//check to see if the current path is better than the one previously found for adjacent_candidate
+					if(adjacent_candidate->step_cost > curr_cell->step_cost+1)
+					{
+						//update the cell: 1) increment step cost of adjacent_candidate
+						//				   2) assign heuristic to adjacent_candidate (not needed, see first for loop in method)
+						//				   3) assign adjacent_candidate's parent to curr_cell
+						//				   4) update total cost of adjacent_candidate
 
-				//check to see if the current path is better than the one previously found for adjacent_candidate
-				if(shortest_path)
+						//calculate G and H in flow chart
+						adjacent_candidate->step_cost = adjacent_candidate->step_cost+1;
+						adjacent_candidate->total_cost = adjacent_candidate->manhattan_dist + adjacent_candidate->step_cost;
+
+						//set adj cell parent in flow chart
+						adjacent_candidate->previous = curr_cell;
+						
+						//don't add it to the open list
+					}
+				}
+				else
 				{
-					adjacent_cells.at(i)
-				}	
-			}
-			//code to translate
+					//calculate G and H in flow chart
+					adjacent_candidate->step_cost = adjacent_candidate->step_cost+1;
+					adjacent_candidate->total_cost = adjacent_candidate->manhattan_dist + adjacent_candidate->step_cost;
 
-			// 21
-			//                     if adj_cell.g > cell.g + 10:
-			// 22
-			//                         self.update_cell(adj_cell, cell)
-			// 23
-			//                 else:
-			// 24
-			//                     self.update_cell(adj_cell, cell)
-			// 25
-			//                     # add adj cell to open list
-			// 26
-			//                     heapq.heappush(self.opened, (adj_cell.f, adj_cell))
-			//DOUBLE CHECK THIS
+					//set adj cell parent in flow chart
+					adjacent_candidate->previous = curr_cell;
+					
+					//add it to the open list
+					open_list.push(adjacent_candidate);
+				}
+			}
 		}
 
 	}
@@ -778,51 +841,6 @@ bool astar_3_helper(cell** maze, maze_props props, int x, int y, vector<cell*> &
 }
 
 
-void set_manhattan_distances(cell** maze, maze_props props)
-{
-		//initialize manhattan_dist heuristic
-	for(int i=0; i<props.num_rows; i++)
-	{
-		for(int j=0; j<props.num_cols; j++)
-		{
-			maze[i][j].manhattan_dist = calc__manhattan_dist(&maze[i][j], props.goal);
-			if(DEBUG_INIT)
-			{
-				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << props.goal->y << "][" << props.goal->x << "]: " << maze[i][j].manhattan_dist << endl;
-			}
-		}
-	}
-}
-
-void set_manhattan_distances_3(cell** maze, maze_props props)
-{
-	//initialize manhattan_dist heuristic
-	for(int i=0; i<props.num_rows; i++)
-	{
-		for(int j=0; j<props.num_cols; j++)
-		{
-			int min_dist = INT_MAX;
-			cell* min_dist_cell;
-			//for every goal in props.goals
-			for(unsigned int k = 0; k < props.goals.size(); k++)
-			{
-				int test_dist = calc__manhattan_dist(&maze[i][j], props.goals.at(k));
-				if(test_dist<min_dist)
-				{
-					min_dist = test_dist;
-					min_dist_cell = &(maze[props.goals.at(k)->y][props.goals.at(k)->x]);
-				}
-			}
-			maze[i][j].manhattan_dist = min_dist;
-			maze[i][j].nearest_goal = min_dist_cell;
-			if(DEBUG_INIT)
-			{
-				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << min_dist_cell->y << "][" << min_dist_cell->x << "]: " << maze[i][j].manhattan_dist << endl;
-			}
-		}
-	}
-}
-
 int main(int argc, char* argv[])
 {
 
@@ -896,7 +914,7 @@ int main(int argc, char* argv[])
 			break;
 
 		case 'A' :
-			set_manhattan_distances_3(maze, props);
+			set_manhattan_distances_3(maze, props, props.goals);
 			astar_3(maze, props);
 			break;
 
