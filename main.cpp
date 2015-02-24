@@ -182,7 +182,7 @@ void print_solution_bfs(cell** maze, maze_props props, int offset) {
 
 void print_solution_dfs(cell** maze, maze_props props) {
 	props.goal->visited = true;
-	print_solution_bfs(maze, props, -1);
+	print_solution_bfs(maze, props, 0);
 
 }
 
@@ -227,7 +227,8 @@ void print_progress(maze_props props, cell** maze, int expansions)
 	{
 		cout << endl;
 	} 
-	usleep(55000); //sleep 0.25 sec
+	if (DEBUG)
+		usleep(5500); //sleep 0.25 sec
 }
 
 bool frontierCheckPush_bfs(queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
