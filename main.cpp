@@ -227,7 +227,7 @@ void print_progress(maze_props props, cell** maze, int expansions)
 	{
 		cout << endl;
 	} 
-	usleep(550); //sleep 0.25 sec
+	usleep(55000); //sleep 0.25 sec
 }
 
 bool frontierCheckPush_bfs(queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
@@ -286,6 +286,7 @@ bool frontierCheckPush_greedy(priority_queue<cell*, vector<cell*>, NodeGreater >
 	if (!candidate_cell->wall) {
 		candidate_cell->total_cost = candidate_cell->manhattan_dist+candidate_cell->step_cost;
 		candidate_cell->previous = previous_cell;
+		candidate_cell->visited = true;
 		frontier.push(candidate_cell);
 		return true;
 	}
@@ -516,6 +517,7 @@ void greedy(cell** maze, maze_props props)
 {
 	cell* current_cell;
 	priority_queue <cell*, vector<cell*>, NodeGreater > frontier;
+	props.start -> visited = true;
 	frontier.push(props.start);
 
 	int expansions = 0;
@@ -525,7 +527,7 @@ void greedy(cell** maze, maze_props props)
 		//current_cell is the cell with the lowest heuristic
 		//see overloaded operator in struct Comp (below struct cell)
 		current_cell = frontier.top();
-		current_cell->visited = true;
+		//current_cell->visited = true;
 		//frontier = priority_queue <cell*, vector<cell*>, less<cell*> >();
 		frontier.pop();
 		expansions++;
