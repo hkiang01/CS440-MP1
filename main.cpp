@@ -379,7 +379,7 @@ void set_manhattan_distances_3(cell** maze, maze_props props, vector<cell*> goal
 			maze[i][j].nearest_goal = min_dist_cell;
 			if(DEBUG_INIT)
 			{
-				cout << "Manhattan distance from [" << i << "][" << j << "] to [" << min_dist_cell->y << "][" << min_dist_cell->x << "]: " << min_dist/*maze[i][j].manhattan_dist*/ << endl;
+				//cout << "Manhattan distance from [" << i << "][" << j << "] to [" << min_dist_cell->y << "][" << min_dist_cell->x << "]: " << min_dist/*maze[i][j].manhattan_dist*/ << endl;
 			}
 		}
 	}
@@ -603,45 +603,6 @@ void print_solution_astar_3(cell** maze, maze_props props)
 	}
 }
 
-void set_manhattan_distances_3(cell** maze, maze_props props, vector<cell*> goals_list, cell* current_cell)
-{
-	//initialize manhattan_dist heuristic
-	for(int i=0; i<props.num_rows; i++)
-	{
-		for(int j=0; j<props.num_cols; j++)
-		{
-			int min_dist = INT_MAX;
-			cell* min_dist_cell;
-			//for every goal in props.goals
-			//TODO: What is the closest goal that is not visited?
-			if (goals_list.size()>0) {
-				for(unsigned int k = 0; k < goals_list.size(); k++)
-				{
-					int test_dist = calc__manhattan_dist(&maze[i][j], goals_list.at(k));
-					//if (test_dist==0) leave it as 0, if adj node is a goal node, we shud get that first
-					//	continue;
-					if(test_dist<min_dist)
-					{
-						min_dist = test_dist;
-						min_dist_cell = &(maze[goals_list.at(k)->y][goals_list.at(k)->x]);
-					}
-				}
-				maze[i][j].manhattan_dist = min_dist;
-				maze[i][j].nearest_goal = min_dist_cell;
-				if (current_cell != NULL)
-					maze[i][j].total_cost = maze[i][j].manhattan_dist + current_cell->step_cost + calc__manhattan_dist(current_cell, &(maze[i][j]));
-				
-				if(DEBUG_INIT)
-				{
-					//cout << "Manhattan distance from [" << i << "][" << j << "] to [" << min_dist_cell->y << "][" << min_dist_cell->x << "]: " << maze[i][j].manhattan_dist << endl;
-				}
-			}
-			else
-				return;
-		}
-	}
-}
-
 
 //Logic is very different from the previous frontier check push's, primarily, ndoes can be revisited now
 bool frontierCheckPush_astar_3(priority_queue<cell*, vector<cell*>, NodeGreater >& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
@@ -705,7 +666,7 @@ bool astar_3(cell** maze, maze_props props)
 	//push start node on open list
 	open_list.push(props.start);
 	cell* curr_cell;
-	while(!open_list.empty())
+	while(!open_list.empty() && !goals_list.empty())
 	{
 		//pop cell from open list
 		curr_cell = open_list.top();
@@ -713,6 +674,7 @@ bool astar_3(cell** maze, maze_props props)
 		num_expansions++;
 		//add cell to closed list to prevent from processing it twice
 		closed_list.push_back(curr_cell);
+		curr_cell->visited=true;
 
 		//check for a goal, erase it from goals_list
 		for(unsigned int i=0; i<goals_list.size(); i++) {
@@ -722,7 +684,8 @@ bool astar_3(cell** maze, maze_props props)
 				curr_cell->goal_order=goal_counter;
 				goal_counter++;
 				i--;
-				cout << "Goal found at: (" << curr_cell->x << ", " << curr_cell->y << ")" << endl;
+				if (DEBUG)
+					cout << "Goal found at: (" << curr_cell->x << ", " << curr_cell->y << ")" << endl;
 
 				//recalculate heuristic for each cell
 				set_manhattan_distances_3(maze, props, goals_list);
@@ -824,7 +787,7 @@ bool astar_3(cell** maze, maze_props props)
 				}
 			}
 		}
-
+		print_progress(props, maze, num_expansions);
 	}
 	
 	//cell* current_cell;
