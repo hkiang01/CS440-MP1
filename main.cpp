@@ -14,8 +14,8 @@
 
 using namespace std;
 
-#define DEBUG false
-#define DEBUG_INIT false
+#define DEBUG true
+#define DEBUG_INIT true
 
 struct cell{
 	
@@ -227,7 +227,7 @@ void print_progress(maze_props props, cell** maze, int expansions)
 	{
 		cout << endl;
 	} 
-	usleep(55000); //sleep 0.25 sec
+	usleep(550); //sleep 0.25 sec
 }
 
 bool frontierCheckPush_bfs(queue<cell*>& frontier, cell** maze, maze_props props, cell* previous_cell, int y, int x) {
