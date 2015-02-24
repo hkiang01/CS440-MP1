@@ -14,7 +14,7 @@
 
 using namespace std;
 
-#define DEBUG true
+#define DEBUG false
 #define DEBUG_INIT true
 
 struct cell{

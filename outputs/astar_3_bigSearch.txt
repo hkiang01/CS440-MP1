@@ -1,0 +1,4083 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%GGGGGGG%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%G%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%GGGGGGGGPGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%GGGGGGG%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%G%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%GGGGGGG*PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 2
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%GGGGGGG%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%G%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%GGGGGG**PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 3
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%GGGGGGG%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%G%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%GGGGG***PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 4
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%GGGGGGG%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%G%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%GGGG****PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 5
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%GGGGGGG%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%G%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%GGG*****PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 6
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%GGGGGGG%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%G%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%GG******PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 7
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%GGGGGGG%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%G%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%G*******PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%GGGGGGG%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%G%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 9
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%GGGGGGG%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 10
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%GGGGGG*%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 11
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%GGGGG**%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 12
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%GGGG***%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 13
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%GGG****%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 14
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%GG*****%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 15
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%G******%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 16
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%GGG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 17
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*GG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%GGGGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 18
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*GG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%GGGGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 19
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*GG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%G*GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 20
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*GG%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 21
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%G%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 22
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GGG%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 23
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%GG*%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 24
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%G**%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 25
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%G%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 26
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%GGG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 27
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%*GG%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 28
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%**G%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 29
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%G%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 30
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GGG%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 31
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%GG*%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 32
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%G**%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 33
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%G%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 34
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%G%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 35
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%GGGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 36
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*GGGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 37
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%**GGG%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 38
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%***GG%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 39
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%****G%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 40
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%G%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 41
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%GGG%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 42
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%GG*%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 43
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%**GGG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 44
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%***GG%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 45
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%****G%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 46
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%G%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 47
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GGG%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 48
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%GG*%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 49
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%G**%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 50
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%G%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 51
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%GGGGGGG%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 52
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%*GGGGGG%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 53
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%**GGGGG%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 54
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%***GGGG%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 55
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%****GGG%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 56
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%*****GG%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 57
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%******G%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 58
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%G%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 59
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%GGGGGG%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 60
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%*GGGGG%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 61
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%**GGGG%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 62
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%***GGG%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 63
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%****GG%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 64
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%*****G%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 65
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%G%%%%GGG%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 66
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%GGGGGG%G%GGGGG%
+%***%%%G%G%%%%G%*%%%%GGG%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 67
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%*GGGGG%G%GGGGG%
+%***%%%G%G%%%%G%*%%%%GGG%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 68
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%**GGGG%G%GGGGG%
+%***%%%G%G%%%%G%*%%%%GGG%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 69
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%***GGG%G%GGGGG%
+%***%%%G%G%%%%G%*%%%%GGG%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 70
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%****GG%G%GGGGG%
+%***%%%G%G%%%%G%*%%%%GGG%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 71
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%*****G%G%GGGGG%
+%***%%%G%G%%%%G%*%%%%GGG%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 72
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%******%G%GGGGG%
+%***%%%G%G%%%%G%*%%%%GGG%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 73
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%******%G%GGGGG%
+%***%%%G%G%%%%G%*%%%%*GG%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 74
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%******%G%GGGGG%
+%***%%%G%G%%%%G%*%%%%**G%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 75
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%******%G%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 76
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%G%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 77
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGGG%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 78
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGGG*%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 79
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGGG**%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 80
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGGG***%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 81
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGGG****%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 82
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGGG*****%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 83
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGGG******%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 84
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGGG*******%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 85
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGGG********%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 86
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGGG*********%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 87
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGGG**********%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 88
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGGG***********%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 89
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGGG************%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 90
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGGG*************%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 91
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GGG**************%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 92
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%GG***************%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 93
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%G****************%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 94
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%G%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 95
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%G%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 96
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%*%GGGGGG%******%*%GGGGG%
+%***%%%G%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 97
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%*%GGGGGG%******%*%GGGGG%
+%***%%%*%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%G%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 98
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%G%%%%%%%G%%%*%GGGGG%
+%*%G**%*%GGGGGG%******%*%GGGGG%
+%***%%%*%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 99
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%GGGGGG%******%*%GGGGG%
+%***%%%*%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 100
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%GG*GGG%******%*%GGGGG%
+%***%%%*%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 101
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%G**GGG%******%*%GGGGG%
+%***%%%*%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 102
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%***GGG%******%*%GGGGG%
+%***%%%*%G%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 103
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%***GGG%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%G%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 104
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%***GGG%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 105
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%****GG%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 106
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%*****G%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 107
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%GG%G%GGG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 108
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%GG%G%*GG%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 109
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%GG%G%**G%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 110
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%GG%G%***%G%%%
+%***%G%%%G%*%%% %%%G%G%%%G%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 111
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%GG%G%***%G%%%
+%***%G%%%G%*%%% %%%G%G%%%*%GGG%
+%*%%%*******%     %GGGGGGG%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 112
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%GG%G%***%G%%%
+%***%G%%%G%*%%% %%%G%G%%%*%GGG%
+%*%%%*******%     %GGGGGG*%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 113
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%GG%G%***%G%%%
+%***%G%%%G%*%%% %%%G%G%%%*%GGG%
+%*%%%*******%     %GGGGG**%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 114
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%GG%G%***%G%%%
+%***%G%%%G%*%%% %%%G%G%%%*%GGG%
+%*%%%*******%     %GGGG***%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 115
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%GG%G%***%G%%%
+%***%G%%%G%*%%% %%%G%G%%%*%GGG%
+%*%%%*******%     %GGG****%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 116
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%GG%G%***%G%%%
+%***%G%%%G%*%%% %%%G%G%%%*%GGG%
+%*%%%*******%     %GG*****%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 117
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%GG%G%***%G%%%
+%***%G%%%G%*%%% %%%G%G%%%*%GGG%
+%*%%%*******%     %G******%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 118
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%GG%G%***%G%%%
+%***%G%%%G%*%%% %%%G%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 119
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%GG%G%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 120
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%G*%G%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 121
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%G%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 122
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%G%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 123
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%GGGG%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 124
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%GGG*%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 125
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%GG**%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 126
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%G***%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 127
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%****%G%GGG%G%%%
+%*G*%%%*%G%%%%G%G%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 128
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%****%G%GGG%G%%%
+%*G*%%%*%G%%%%G%*%%%%G%G%%%GGG%
+%*******%GGGGGG%GGGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 129
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%****%G%GGG%G%%%
+%*G*%%%*%G%%%%G%*%%%%G%G%%%GGG%
+%*******%GGGGGG%*GGGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 130
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%****%G%GGG%G%%%
+%*G*%%%*%G%%%%G%*%%%%G%G%%%GGG%
+%*******%GGGGGG%**GGGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 131
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%****%G%GGG%G%%%
+%*G*%%%*%G%%%%G%*%%%%G%G%%%GGG%
+%*******%GGGGGG%***GGG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 132
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%****%G%GGG%G%%%
+%*G*%%%*%G%%%%G%*%%%%G%G%%%GGG%
+%*******%GGGGGG%****GG%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 133
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%****%G%GGG%G%%%
+%*G*%%%*%G%%%%G%*%%%%G%G%%%GGG%
+%*******%GGGGGG%*****G%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 134
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%****%G%GGG%G%%%
+%*G*%%%*%G%%%%G%*%%%%G%G%%%GGG%
+%*******%GGGGGG%******%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 135
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%****%G%GGG%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%G%%%GGG%
+%*******%GGGGGG%******%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 136
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%****%*%GGG%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%G%%%GGG%
+%*******%GGGGGG%******%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%G%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 137
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%****%*%GGG%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%G%%%GGG%
+%*******%GGGGGG%******%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PGGGG%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 138
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%****%*%GGG%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%G%%%GGG%
+%*******%GGGGGG%******%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PGGG*%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 139
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%****%*%GGG%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%G%%%GGG%
+%*******%GGGGGG%******%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PGG**%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 140
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%G%GGG%
+%%%*%***%G%GGGG%****%*%GGG%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%G%%%GGG%
+%*******%GGGGGG%******%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PG***%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 141
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%GGG%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%G%%%GGG%
+%*******%GGGGGG%******%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PG***%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 142
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%GG*%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%G%%%GGG%
+%*******%GGGGGG%******%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PG***%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 143
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%G**%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%G%%%GGG%
+%*******%GGGGGG%******%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PG***%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 144
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%G%%%GGG%
+%*******%GGGGGG%******%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PG***%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 145
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%GGG%
+%*******%GGGGGG%******%GGGGG%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PG***%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 146
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%GGG%
+%*******%GGGGGG%******%*GGGG%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PG***%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 147
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%GGG%
+%*******%GGGGGG%******%**GGG%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PG***%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 148
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%GGG%
+%*******%GGGGGG%******%***GG%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PG***%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 149
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%GGG%
+%*******%GGGGGG%******%****G%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PG***%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 150
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%GGG%
+%*******%GGGGGG%******%*****%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PG***%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 151
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%*GG%
+%*******%GGGGGG%******%*****%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PG***%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 152
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%**G%
+%*******%GGGGGG%******%*****%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PG***%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 153
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%G%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PG***%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 154
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%G%
+%*****%********PG***%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 155
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%*%
+%*****%********PG***%GGG%GGGGG%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 156
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%*%
+%*****%********PG***%GGG%GGGG*%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 157
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%*%
+%*****%********PG***%GGG%GGG**%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 158
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%*%
+%*****%********PG***%GGG%GG***%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 159
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%*%
+%*****%********PG***%GGG%G****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 160
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%G%G%%%*%
+%*****%********PG***%GGG%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 161
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%GGG%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 162
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%GG*%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 163
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%G**%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 164
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%% %%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 165
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%     %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 166
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%  .  %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 167
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******% ..  %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 168
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%...  %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 169
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.... %*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 170
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%G%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 171
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%GGGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 172
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%*GGG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 173
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%**GG%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 174
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%***G%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 175
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%****%****%*%***%G%%%
+%*G*%%%*%G%%%%G%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 176
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%****%****%*%***%G%%%
+%*G*%%%*%G%%%%*%*%%%%*%*%%%***%
+%*******%GGGGGG%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 177
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%****%****%*%***%G%%%
+%*G*%%%*%G%%%%*%*%%%%*%*%%%***%
+%*******%GGGGG*%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 178
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%****%****%*%***%G%%%
+%*G*%%%*%G%%%%*%*%%%%*%*%%%***%
+%*******%GGGG**%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 179
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%****%****%*%***%G%%%
+%*G*%%%*%G%%%%*%*%%%%*%*%%%***%
+%*******%GGG***%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 180
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%****%****%*%***%G%%%
+%*G*%%%*%G%%%%*%*%%%%*%*%%%***%
+%*******%GG****%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 181
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%****%****%*%***%G%%%
+%*G*%%%*%G%%%%*%*%%%%*%*%%%***%
+%*******%G*****%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 182
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%****%****%*%***%G%%%
+%*G*%%%*%G%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 183
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%G%****%****%*%***%G%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 184
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%G%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%*%****%****%*%***%G%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 185
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%G%*%*%******%**%*%***%G%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%*%****%****%*%***%G%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 186
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%*%*%*%******%**%*%***%G%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%*%****%****%*%***%G%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G*GGG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 187
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%*%*%*%******%**%*%***%G%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%*%****%****%*%***%G%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 188
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%*%*%*%******%**%*%***%G%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%GGG%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 189
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%*%*%*%******%**%*%***%G%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%*GG%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 190
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%*%*%*%******%**%*%***%G%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%**G%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 191
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%*%*%*%******%**%*%***%G%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%G%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 192
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%*%*%*%******%**%*%***%G%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%GGG%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 193
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%*%*%*%******%**%*%***%G%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%GG*%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 194
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%*%*%*%******%**%*%***%G%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%G**%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 195
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%*%*%*%******%**%*%***%G%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 196
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%GGG%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 197
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%*GG%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 198
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%**G%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 199
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGGG%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 200
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGGG%
+%*%G**%*%******%******%*%GGGG*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 201
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGGG*%
+%*%G**%*%******%******%*%GGGG*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 202
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GGG**%
+%*%G**%*%******%******%*%GGGG*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 203
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%GG***%
+%*%G**%*%******%******%*%GGGG*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 204
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%G****%
+%*%G**%*%******%******%*%GGGG*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 205
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%GGGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%*****%
+%*%G**%*%******%******%*%GGGG*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 206
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*GGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%*****%
+%*%G**%*%******%******%*%GGGG*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 207
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*GGGG%
+%*%%%*%*%%%*%%%%%%%G%%%*%*****%
+%*%G**%*%******%******%*%G*GG*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 208
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*G*GG%
+%*%%%*%*%%%*%%%%%%%G%%%*%*****%
+%*%G**%*%******%******%*%G*GG*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 209
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%***GG%
+%*%%%*%*%%%*%%%%%%%G%%%*%*****%
+%*%G**%*%******%******%*%G*GG*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 210
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%***G*%
+%*%%%*%*%%%*%%%%%%%G%%%*%*****%
+%*%G**%*%******%******%*%G*GG*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 211
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*****%
+%*%%%*%*%%%*%%%%%%%G%%%*%*****%
+%*%G**%*%******%******%*%G*GG*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 212
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*****%
+%*%%%*%*%%%*%%%%%%%G%%%*%*****%
+%*%G**%*%******%******%*%G**G*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%G**GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 213
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*****%
+%*%%%*%*%%%*%%%%%%%G%%%*%*****%
+%*%G**%*%******%******%*%G**G*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%***GG%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 214
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*****%
+%*%%%*%*%%%*%%%%%%%G%%%*%*****%
+%*%G**%*%******%******%*%G**G*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%****G%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 215
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*****%
+%*%%%*%*%%%*%%%%%%%G%%%*%*****%
+%*%G**%*%******%******%*%G**G*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%*G*%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%*****%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 216
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*****%
+%*%%%*%*%%%*%%%%%%%G%%%*%*****%
+%*%G**%*%******%******%*%G**G*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%***%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%*****%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 217
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*****%
+%*%%%*%*%%%*%%%%%%%G%%%*%*****%
+%*%G**%*%******%******%*%G**G*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%***%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%*****%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 218
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*****%
+%*%%%*%*%%%*%%%%%%%G%%%*%*****%
+%*%***%*%******%******%*%G**G*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%***%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%*****%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 219
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*****%
+%*%%%*%*%%%*%%%%%%%G%%%*%*****%
+%*%***%*%******%******%*%G**G*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%***%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%*****%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 220
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*****%
+%*%%%*%*%%%*%%%%%%%*%%%*%*****%
+%*%***%*%******%******%*%G**G*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%***%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%*****%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 221
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*****%
+%*%%%*%*%%%*%%%%%%%*%%%*%*****%
+%*%***%*%******%******%*%G**G*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%***%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%*****%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 222
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*****%
+%*%%%*%*%%%*%%%%%%%*%%%*%*****%
+%*%***%*%******%******%*%G**G*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%G%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%***%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%*****%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 223
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*****%
+%*%%%*%*%%%*%%%%%%%*%%%*%*****%
+%*%***%*%******%******%*%G**G*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%*%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%***%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%*****%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********PG***%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 224
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*****%
+%*%%%*%*%%%*%%%%%%%*%%%*%*****%
+%*%***%*%******%******%*%G**G*%
+%***%%%*%*%%%%G%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%*%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%***%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%*****%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********P****%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 225
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*****%
+%*%%%*%*%%%*%%%%%%%*%%%*%*****%
+%*%***%*%******%******%*%G**G*%
+%***%%%*%*%%%%*%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%*%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%***%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%*****%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********P****%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 226
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****%*****************%*****%
+%*%%%*%*%%%*%%%%%%%*%%%*%*****%
+%*%***%*%******%******%*%G**G*%
+%***%%%*%*%%%%*%*%%%%***%%%***%
+%%%*%*%*%*%******%**%*%***%*%%%
+%***%*%%%*%*%%%.%%%*%G%%%*%***%
+%*%%%*******%.....%*******%%%*%
+%***%*%%%%%*%%%%%%%*%G%%%*%***%
+%%%*%***%*%****%****%*%***%*%%%
+%***%%%*%*%%%%*%*%%%%*%*%%%***%
+%*******%******%******%*****%*%
+%*****%*%%%G%%%%%%%*%%%*%G%%%*%
+%*****%********P****%***%*****%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Nodes expanded: 227
+
+Goal | coordinates
+1	(21, 8)
+2	(28, 3)
+3	(11, 12)
+4	(25, 12)
+5	(21, 6)
+6	(25, 3)
+7	(14, 13)
+8	(13, 13)
+9	(12, 13)
+10	(11, 13)
+11	(10, 13)
+12	(9, 13)
+13	(8, 13)
+14	(7, 13)
+15	(7, 12)
+16	(7, 11)
+17	(6, 11)
+18	(5, 11)
+19	(4, 11)
+20	(3, 11)
+21	(2, 11)
+22	(1, 11)
+23	(1, 10)
+24	(2, 12)
+25	(2, 13)
+26	(1, 13)
+27	(3, 10)
+28	(3, 9)
+29	(3, 8)
+30	(2, 8)
+31	(1, 8)
+32	(1, 7)
+33	(1, 6)
+34	(2, 6)
+35	(3, 6)
+36	(3, 5)
+37	(3, 4)
+38	(2, 4)
+39	(1, 4)
+40	(1, 3)
+41	(1, 2)
+42	(1, 1)
+43	(2, 1)
+44	(3, 1)
+45	(4, 1)
+46	(5, 1)
+47	(5, 2)
+48	(5, 3)
+49	(4, 3)
+50	(3, 13)
+51	(4, 13)
+52	(5, 13)
+53	(7, 10)
+54	(7, 9)
+55	(6, 9)
+56	(5, 9)
+57	(5, 8)
+58	(5, 7)
+59	(6, 7)
+60	(7, 7)
+61	(8, 7)
+62	(9, 7)
+63	(10, 7)
+64	(11, 7)
+65	(11, 6)
+66	(11, 5)
+67	(12, 5)
+68	(13, 5)
+69	(14, 5)
+70	(15, 5)
+71	(16, 5)
+72	(16, 4)
+73	(16, 3)
+74	(17, 3)
+75	(18, 3)
+76	(19, 3)
+77	(20, 3)
+78	(21, 3)
+79	(21, 4)
+80	(22, 4)
+81	(23, 4)
+82	(23, 3)
+83	(23, 2)
+84	(23, 1)
+85	(22, 1)
+86	(21, 1)
+87	(20, 1)
+88	(19, 1)
+89	(18, 1)
+90	(17, 1)
+91	(16, 1)
+92	(15, 1)
+93	(14, 1)
+94	(13, 1)
+95	(12, 1)
+96	(11, 1)
+97	(10, 1)
+98	(9, 1)
+99	(8, 1)
+100	(7, 1)
+101	(7, 2)
+102	(7, 3)
+103	(7, 4)
+104	(7, 5)
+105	(11, 2)
+106	(11, 3)
+107	(10, 3)
+108	(9, 3)
+109	(9, 4)
+110	(9, 5)
+111	(12, 3)
+112	(13, 3)
+113	(14, 3)
+114	(23, 5)
+115	(24, 5)
+116	(25, 5)
+117	(25, 6)
+118	(25, 7)
+119	(24, 7)
+120	(23, 7)
+121	(22, 7)
+122	(21, 7)
+123	(20, 7)
+124	(19, 7)
+125	(19, 6)
+126	(19, 5)
+127	(18, 5)
+128	(21, 5)
+129	(19, 8)
+130	(19, 9)
+131	(18, 9)
+132	(17, 9)
+133	(16, 9)
+134	(16, 10)
+135	(16, 11)
+136	(17, 11)
+137	(18, 11)
+138	(19, 11)
+139	(20, 11)
+140	(21, 11)
+141	(21, 10)
+142	(21, 9)
+143	(19, 12)
+144	(19, 13)
+145	(18, 13)
+146	(17, 13)
+147	(25, 8)
+148	(25, 9)
+149	(24, 9)
+150	(23, 9)
+151	(23, 10)
+152	(23, 11)
+153	(24, 11)
+154	(25, 11)
+155	(26, 11)
+156	(27, 11)
+157	(27, 10)
+158	(28, 10)
+159	(29, 10)
+160	(29, 11)
+161	(29, 12)
+162	(29, 13)
+163	(28, 13)
+164	(27, 13)
+165	(26, 13)
+166	(25, 13)
+167	(23, 12)
+168	(23, 13)
+169	(22, 13)
+170	(21, 13)
+171	(11, 8)
+172	(11, 9)
+173	(12, 9)
+174	(13, 9)
+175	(14, 9)
+176	(14, 10)
+177	(14, 11)
+178	(13, 11)
+179	(12, 11)
+180	(11, 11)
+181	(10, 11)
+182	(9, 11)
+183	(9, 10)
+184	(9, 9)
+185	(5, 6)
+186	(5, 5)
+187	(3, 12)
+188	(27, 9)
+189	(27, 8)
+190	(28, 8)
+191	(29, 8)
+192	(29, 7)
+193	(29, 6)
+194	(28, 6)
+195	(27, 6)
+196	(27, 5)
+197	(27, 4)
+198	(28, 4)
+199	(29, 4)
+200	(29, 3)
+201	(29, 2)
+202	(28, 2)
+203	(27, 2)
+204	(26, 2)
+205	(25, 2)
+206	(25, 1)
+207	(26, 3)
+208	(27, 1)
+209	(26, 1)
+210	(29, 1)
+211	(28, 1)
+212	(27, 3)
+213	(1, 12)
+214	(4, 12)
+215	(5, 12)
+216	(2, 10)
+217	(3, 3)
+218	(19, 2)
+219	(9, 6)
+220	(16, 13)
+221	(14, 4)
+The init is at row: 15 and col: 13
+The goal is at row: 29 and col: 13
